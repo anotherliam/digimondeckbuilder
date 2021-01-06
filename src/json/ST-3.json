@@ -1,0 +1,418 @@
+[
+    {
+        "name": "Tokomon",
+        "number": "ST3-01",
+        "rarity": "U",
+        "color": "yellow",
+        "level": "LV2",
+        "printings": [
+            {
+                "name": "ST3-01",
+                "set": "ST-3",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST3-01.png"
+            }
+        ],
+        "cardType": "Digi-Egg",
+        "form": "In-Training",
+        "attribute": "-",
+        "type": "Lesser",
+        "dp": "-",
+        "cost": "-",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn][Once Per Turn] When an opponent's Digimon is deleted by dropping to 0 DP, this Digimon gets +1000 DP for the turn.",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, HEAVEN’S YELLOW【ST-3】"
+    },
+    {
+        "name": "Salamon",
+        "number": "ST3-02",
+        "rarity": "C",
+        "color": "yellow",
+        "level": "LV3",
+        "printings": [
+            {
+                "name": "ST3-02",
+                "set": "ST-3",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST3-02.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "type": "Mammal",
+        "dp": "3000",
+        "cost": "2",
+        "digivolveCost1": "0 from LV2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, HEAVEN’S YELLOW【ST-3】"
+    },
+    {
+        "name": "Tapirmon",
+        "number": "ST3-03",
+        "rarity": "C",
+        "color": "yellow",
+        "level": "LV3",
+        "printings": [
+            {
+                "name": "ST3-03",
+                "set": "ST-3",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST3-03.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "type": "Holy Beast",
+        "dp": "4000",
+        "cost": "3",
+        "digivolveCost1": "0 from LV2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, HEAVEN’S YELLOW【ST-3】"
+    },
+    {
+        "name": "Patamon",
+        "number": "ST3-04",
+        "rarity": "U",
+        "color": "yellow",
+        "level": "LV3",
+        "printings": [
+            {
+                "name": "ST3-04",
+                "set": "ST-3",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST3-04.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Data",
+        "type": "Mammal",
+        "dp": "1000",
+        "cost": "3",
+        "digivolveCost1": "0 from LV2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn][Once Per Turn] When an opponent's Digimon is deleted by dropping to 0 DP, gain 1 memory.",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, HEAVEN’S YELLOW【ST-3】"
+    },
+    {
+        "name": "Angemon",
+        "number": "ST3-05",
+        "rarity": "U",
+        "color": "yellow",
+        "level": "LV4",
+        "printings": [
+            {
+                "name": "ST3-05",
+                "set": "ST-3",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST3-05.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Angel",
+        "dp": "4000",
+        "cost": "5",
+        "digivolveCost1": "2 from LV3",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[When Attacking] If you have 4 or more security cards, gain 1 memory.",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, HEAVEN’S YELLOW【ST-3】"
+    },
+    {
+        "name": "Gatomon",
+        "number": "ST3-06",
+        "rarity": "C",
+        "color": "yellow",
+        "level": "LV4",
+        "printings": [
+            {
+                "name": "ST3-06",
+                "set": "ST-3",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST3-06.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Holy Beast",
+        "dp": "5000",
+        "cost": "4",
+        "digivolveCost1": "2 from LV3",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, HEAVEN’S YELLOW【ST-3】"
+    },
+    {
+        "name": "Unimon",
+        "number": "ST3-07",
+        "rarity": "C",
+        "color": "yellow",
+        "level": "LV4",
+        "printings": [
+            {
+                "name": "ST3-07",
+                "set": "ST-3",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST3-07.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Mythical Beast",
+        "dp": "6000",
+        "cost": "5",
+        "digivolveCost1": "2 from LV3",
+        "digivolveCost2": "-",
+        "effect": "＜Blocker＞ (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)[When Attacking] Lose 2 memory.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, HEAVEN’S YELLOW【ST-3】"
+    },
+    {
+        "name": "MagnaAngemon",
+        "number": "ST3-08",
+        "rarity": "R",
+        "color": "yellow",
+        "level": "LV5",
+        "printings": [
+            {
+                "name": "ST3-08",
+                "set": "ST-3",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST3-08.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Vaccine",
+        "type": "Archangel",
+        "dp": "7000",
+        "cost": "7",
+        "digivolveCost1": "3 from LV4",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[When Attacking] 1 of your opponent's Digimon gets -1000 DP for the turn.",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, HEAVEN’S YELLOW【ST-3】"
+    },
+    {
+        "name": "Angewomon",
+        "number": "ST3-09",
+        "rarity": "U",
+        "color": "yellow",
+        "level": "LV5",
+        "printings": [
+            {
+                "name": "ST3-09",
+                "set": "ST-3",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST3-09.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Vaccine",
+        "type": "Archangel",
+        "dp": "7000",
+        "cost": "6",
+        "digivolveCost1": "3 from LV4",
+        "digivolveCost2": "-",
+        "effect": "[When Digivolving] When you have 3 security cards or less, trigger ＜Recovery +1 (Deck)＞. (Place the top card of your deck on top of your security stack.)",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, HEAVEN’S YELLOW【ST-3】"
+    },
+    {
+        "name": "Magnadramon",
+        "number": "ST3-10",
+        "rarity": "R",
+        "color": "yellow",
+        "level": "LV6",
+        "printings": [
+            {
+                "name": "ST3-10",
+                "set": "ST-3",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST3-10.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "type": "Holy Dragon/Four Great Dragons",
+        "dp": "12000",
+        "cost": "10",
+        "digivolveCost1": "2 from LV5",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, HEAVEN’S YELLOW【ST-3】"
+    },
+    {
+        "name": "Seraphimon",
+        "number": "ST3-11",
+        "rarity": "SR",
+        "color": "yellow",
+        "level": "LV6",
+        "printings": [
+            {
+                "name": "ST3-11",
+                "set": "ST-3",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST3-11.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "type": "Seraph/Three Great Angels",
+        "dp": "10000",
+        "cost": "12",
+        "digivolveCost1": "4 from LV5",
+        "digivolveCost2": "-",
+        "effect": "[When Attacking] 1 of your opponent's Digimon gets -4000 DP for the turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, HEAVEN’S YELLOW【ST-3】"
+    },
+    {
+        "name": "T.K. Takaishi",
+        "number": "ST3-12",
+        "rarity": "R",
+        "color": "yellow",
+        "level": "-",
+        "printings": [
+            {
+                "name": "ST3-12",
+                "set": "ST-3",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST3-12.png"
+            }
+        ],
+        "cardType": "Tamer",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "2",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Opponent's Turn] All of your Security Digimon get +2000 DP.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Play this card without paying its memory cost.",
+        "notes": "&rtri;Starter Deck, HEAVEN’S YELLOW【ST-3】"
+    },
+    {
+        "name": "Heaven's Gate",
+        "number": "ST3-13",
+        "rarity": "C",
+        "color": "yellow",
+        "level": "-",
+        "printings": [
+            {
+                "name": "ST3-13",
+                "set": "ST-3",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST3-13.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "1",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] 1 of your Digimon gets +3000 DP for the turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] All of your Digimon and Security Digimon get +5000 DP for the turn. Then add this card to its owner's hand.",
+        "notes": "&rtri;Starter Deck, HEAVEN’S YELLOW【ST-3】"
+    },
+    {
+        "name": "Heaven's Charm",
+        "number": "ST3-14",
+        "rarity": "C",
+        "color": "yellow",
+        "level": "-",
+        "printings": [
+            {
+                "name": "ST3-14",
+                "set": "ST-3",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST3-14.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "2",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] 1 of your opponent's Digimon gets -2000 DP for the turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Add this card to its owner's hand.",
+        "notes": "&rtri;Starter Deck, HEAVEN’S YELLOW【ST-3】"
+    },
+    {
+        "name": "Holy Flame",
+        "number": "ST3-15",
+        "rarity": "C",
+        "color": "yellow",
+        "level": "-",
+        "printings": [
+            {
+                "name": "ST3-15",
+                "set": "ST-3",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST3-15.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "2",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] 1 of your opponent's Digimon gains ＜Security Attack -3＞ (This Digimon checks 3 fewer security cards) until the end of your opponent's next turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] All of your opponent's Digimon gain ＜Security Attack -1＞ (This Digimon checks 1 fewer security card) for the turn.",
+        "notes": "&rtri;Starter Deck, HEAVEN’S YELLOW【ST-3】"
+    },
+    {
+        "name": "Seven Heavens",
+        "number": "ST3-16",
+        "rarity": "U",
+        "color": "yellow",
+        "level": "-",
+        "printings": [
+            {
+                "name": "ST3-16",
+                "set": "ST-3",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST3-16.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "7",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] 1 of your opponent's Digimon gets -10000 DP for the turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Activate this card's [Main] effect.",
+        "notes": "&rtri;Starter Deck, HEAVEN’S YELLOW【ST-3】"
+    }
+]

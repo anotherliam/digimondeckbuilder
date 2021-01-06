@@ -1,0 +1,418 @@
+[
+    {
+        "name": "Tsunomon",
+        "number": "ST2-01",
+        "rarity": "U",
+        "color": "blue",
+        "level": "LV2",
+        "printings": [
+            {
+                "name": "ST2-01",
+                "set": "ST-2",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST2-01.png"
+            }
+        ],
+        "cardType": "Digi-Egg",
+        "form": "In-Training",
+        "attribute": "-",
+        "type": "Lesser",
+        "dp": "-",
+        "cost": "-",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn] This Digimon gets +1000 DP when battling an opponent's Digimon that has no digivolution cards.",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, COCYTUS BLUE【ST-2】"
+    },
+    {
+        "name": "Gomamon",
+        "number": "ST2-02",
+        "rarity": "C",
+        "color": "blue",
+        "level": "LV3",
+        "printings": [
+            {
+                "name": "ST2-02",
+                "set": "ST-2",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST2-02.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "type": "Sea Beast",
+        "dp": "3000",
+        "cost": "2",
+        "digivolveCost1": "0 from LV2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, COCYTUS BLUE【ST-2】"
+    },
+    {
+        "name": "Gabumon",
+        "number": "ST2-03",
+        "rarity": "U",
+        "color": "blue",
+        "level": "LV3",
+        "printings": [
+            {
+                "name": "ST2-03",
+                "set": "ST-2",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST2-03.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Data",
+        "type": "Reptile",
+        "dp": "2000",
+        "cost": "3",
+        "digivolveCost1": "0 from LV2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[When Attacking] Trash the digivolution card at the bottom of 1 of your opponent's Digimon with a level of 5 or less.",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, COCYTUS BLUE【ST-2】"
+    },
+    {
+        "name": "Bearmon",
+        "number": "ST2-04",
+        "rarity": "C",
+        "color": "blue",
+        "level": "LV3",
+        "printings": [
+            {
+                "name": "ST2-04",
+                "set": "ST-2",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST2-04.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "type": "Beast",
+        "dp": "4000",
+        "cost": "3",
+        "digivolveCost1": "0 from LV2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, COCYTUS BLUE【ST-2】"
+    },
+    {
+        "name": "Ikkakumon",
+        "number": "ST2-05",
+        "rarity": "C",
+        "color": "blue",
+        "level": "LV4",
+        "printings": [
+            {
+                "name": "ST2-05",
+                "set": "ST-2",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST2-05.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Sea Beast",
+        "dp": "5000",
+        "cost": "4",
+        "digivolveCost1": "2 from LV3",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, COCYTUS BLUE【ST-2】"
+    },
+    {
+        "name": "Garurumon",
+        "number": "ST2-06",
+        "rarity": "U",
+        "color": "blue",
+        "level": "LV4",
+        "printings": [
+            {
+                "name": "ST2-06",
+                "set": "ST-2",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST2-06.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Beast",
+        "dp": "4000",
+        "cost": "5",
+        "digivolveCost1": "2 from LV3",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[When Attacking] Trash the digivolution card at the bottom of 1 of your opponent's Digimon.",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, COCYTUS BLUE【ST-2】"
+    },
+    {
+        "name": "Grizzlymon",
+        "number": "ST2-07",
+        "rarity": "C",
+        "color": "blue",
+        "level": "LV4",
+        "printings": [
+            {
+                "name": "ST2-07",
+                "set": "ST-2",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST2-07.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Beast",
+        "dp": "6000",
+        "cost": "5",
+        "digivolveCost1": "2 from LV3",
+        "digivolveCost2": "-",
+        "effect": "＜Blocker＞ (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)[When Attacking] Lose 2 memory.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, COCYTUS BLUE【ST-2】"
+    },
+    {
+        "name": "WereGarurumon",
+        "number": "ST2-08",
+        "rarity": "R",
+        "color": "blue",
+        "level": "LV5",
+        "printings": [
+            {
+                "name": "ST2-08",
+                "set": "ST-2",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST2-08.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Vaccine",
+        "type": "Beastkin",
+        "dp": "7000",
+        "cost": "7",
+        "digivolveCost1": "3 from LV4",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn] While your opponent has a Digimon with no digivolution cards, this Digimon gains ＜Security Attack +1＞. (This Digimon checks 1 additional security card.)",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, COCYTUS BLUE【ST-2】"
+    },
+    {
+        "name": "Zudomon",
+        "number": "ST2-09",
+        "rarity": "U",
+        "color": "blue",
+        "level": "LV5",
+        "printings": [
+            {
+                "name": "ST2-09",
+                "set": "ST-2",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST2-09.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Vaccine",
+        "type": "Sea Beast",
+        "dp": "7000",
+        "cost": "6",
+        "digivolveCost1": "3 from LV4",
+        "digivolveCost2": "-",
+        "effect": "[When Digivolving] Trash 2 digivolution cards at the bottom of 1 of your opponent's Digimon.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, COCYTUS BLUE【ST-2】"
+    },
+    {
+        "name": "Plesiomon",
+        "number": "ST2-10",
+        "rarity": "R",
+        "color": "blue",
+        "level": "LV6",
+        "printings": [
+            {
+                "name": "ST2-10",
+                "set": "ST-2",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST2-10.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Data",
+        "type": "Plesiosaur",
+        "dp": "12000",
+        "cost": "10",
+        "digivolveCost1": "2 from LV5",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, COCYTUS BLUE【ST-2】"
+    },
+    {
+        "name": "MetalGarurumon",
+        "number": "ST2-11",
+        "rarity": "SR",
+        "color": "blue",
+        "level": "LV6",
+        "printings": [
+            {
+                "name": "ST2-11",
+                "set": "ST-2",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST2-11.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Data",
+        "type": "Cyborg",
+        "dp": "11000",
+        "cost": "12",
+        "digivolveCost1": "4 from LV5",
+        "digivolveCost2": "-",
+        "effect": "[When Attacking][Once Per Turn] Unsuspend this Digimon.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, COCYTUS BLUE【ST-2】"
+    },
+    {
+        "name": "Matt Ishida",
+        "number": "ST2-12",
+        "rarity": "R",
+        "color": "blue",
+        "level": "-",
+        "printings": [
+            {
+                "name": "ST2-12",
+                "set": "ST-2",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST2-12.png"
+            }
+        ],
+        "cardType": "Tamer",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "2",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Start of Your Turn] If your opponent has a Digimon with no digivolution cards, gain 1 memory.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Play this card without paying its memory cost.",
+        "notes": "&rtri;Starter Deck, COCYTUS BLUE【ST-2】"
+    },
+    {
+        "name": "Hammer Spark",
+        "number": "ST2-13",
+        "rarity": "C",
+        "color": "blue",
+        "level": "-",
+        "printings": [
+            {
+                "name": "ST2-13",
+                "set": "ST-2",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST2-13.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "-",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] Gain 1 memory.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Gain 2 memory.",
+        "notes": "&rtri;Starter Deck, COCYTUS BLUE【ST-2】"
+    },
+    {
+        "name": "Sorrow Blue",
+        "number": "ST2-14",
+        "rarity": "C",
+        "color": "blue",
+        "level": "-",
+        "printings": [
+            {
+                "name": "ST2-14",
+                "set": "ST-2",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST2-14.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "2",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] Choose 1 of your opponent's Digimon with no digivolution cards. That Digimon can't attack or block until the end of your opponent's next turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Choose 1 of your opponent's Digimon with no digivolution cards. That Digimon can't attack or block until the end of your next turn.",
+        "notes": "&rtri;Starter Deck, COCYTUS BLUE【ST-2】"
+    },
+    {
+        "name": "Kaiser Nail",
+        "number": "ST2-15",
+        "rarity": "C",
+        "color": "blue",
+        "level": "-",
+        "printings": [
+            {
+                "name": "ST2-15",
+                "set": "ST-2",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST2-15.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "4",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] Choose a Digimon digivolution card placed under 1 of your Digimon and play it as another Digimon without paying its memory cost.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Activate this card's [Main] effect.",
+        "notes": "&rtri;Starter Deck, COCYTUS BLUE【ST-2】"
+    },
+    {
+        "name": "Cocytus Breath",
+        "number": "ST2-16",
+        "rarity": "U",
+        "color": "blue",
+        "level": "-",
+        "printings": [
+            {
+                "name": "ST2-16",
+                "set": "ST-2",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST2-16.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "7",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] Return 1 of your opponent's Digimon to its owner's hand. (Trash all of the digivolution cards of that Digimon.)",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Activate this card's [Main] effect.",
+        "notes": "&rtri;Starter Deck, COCYTUS BLUE【ST-2】"
+    }
+]

@@ -1,0 +1,418 @@
+[
+    {
+        "name": "Koromon",
+        "number": "ST1-01",
+        "rarity": "U",
+        "color": "red",
+        "level": "LV2",
+        "printings": [
+            {
+                "name": "ST1-01",
+                "set": "ST-1",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST1-01.png"
+            }
+        ],
+        "cardType": "Digi-Egg",
+        "form": "In-Training",
+        "attribute": "-",
+        "type": "Lesser",
+        "dp": "-",
+        "cost": "-",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn] While this Digimon has 4 or more digivolution cards, it gets +1000 DP.",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, GAIA RED【ST-1】"
+    },
+    {
+        "name": "Biyomon",
+        "number": "ST1-02",
+        "rarity": "C",
+        "color": "red",
+        "level": "LV3",
+        "printings": [
+            {
+                "name": "ST1-02",
+                "set": "ST-1",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST1-02.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "type": "Bird",
+        "dp": "3000",
+        "cost": "2",
+        "digivolveCost1": "0 from LV2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, GAIA RED【ST-1】"
+    },
+    {
+        "name": "Agumon",
+        "number": "ST1-03",
+        "rarity": "U",
+        "color": "red",
+        "level": "LV3",
+        "printings": [
+            {
+                "name": "ST1-03",
+                "set": "ST-1",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST1-03.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "type": "Reptile",
+        "dp": "2000",
+        "cost": "3",
+        "digivolveCost1": "0 from LV2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn] This Digimon gets +1000 DP.",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, GAIA RED【ST-1】"
+    },
+    {
+        "name": "Dracomon",
+        "number": "ST1-04",
+        "rarity": "C",
+        "color": "red",
+        "level": "LV3",
+        "printings": [
+            {
+                "name": "ST1-04",
+                "set": "ST-1",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST1-04.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Data",
+        "type": "Dragon",
+        "dp": "4000",
+        "cost": "3",
+        "digivolveCost1": "0 from LV2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, GAIA RED【ST-1】"
+    },
+    {
+        "name": "Birdramon",
+        "number": "ST1-05",
+        "rarity": "C",
+        "color": "red",
+        "level": "LV4",
+        "printings": [
+            {
+                "name": "ST1-05",
+                "set": "ST-1",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST1-05.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Giant Bird",
+        "dp": "5000",
+        "cost": "4",
+        "digivolveCost1": "2 from LV3",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, GAIA RED【ST-1】"
+    },
+    {
+        "name": "Coredramon",
+        "number": "ST1-06",
+        "rarity": "C",
+        "color": "red",
+        "level": "LV4",
+        "printings": [
+            {
+                "name": "ST1-06",
+                "set": "ST-1",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST1-06.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Virus",
+        "type": "Dragon",
+        "dp": "6000",
+        "cost": "5",
+        "digivolveCost1": "2 from LV3",
+        "digivolveCost2": "-",
+        "effect": "＜Blocker＞ (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)[When Attacking] Lose 2 memory.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, GAIA RED【ST-1】"
+    },
+    {
+        "name": "Greymon",
+        "number": "ST1-07",
+        "rarity": "U",
+        "color": "red",
+        "level": "LV4",
+        "printings": [
+            {
+                "name": "ST1-07",
+                "set": "ST-1",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST1-07.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Dinosaur",
+        "dp": "4000",
+        "cost": "5",
+        "digivolveCost1": "2 from LV3",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "＜Security Attack +1＞ (This Digimon checks 1 additional security card.)",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, GAIA RED【ST-1】"
+    },
+    {
+        "name": "Garudamon",
+        "number": "ST1-08",
+        "rarity": "U",
+        "color": "red",
+        "level": "LV5",
+        "printings": [
+            {
+                "name": "ST1-08",
+                "set": "ST-1",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST1-08.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Vaccine",
+        "type": "Birdkin",
+        "dp": "7000",
+        "cost": "6",
+        "digivolveCost1": "3 from LV4",
+        "digivolveCost2": "-",
+        "effect": "[When Digivolving] 1 of your Digimon gets +3000 DP for the turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, GAIA RED【ST-1】"
+    },
+    {
+        "name": "MetalGreymon",
+        "number": "ST1-09",
+        "rarity": "R",
+        "color": "red",
+        "level": "LV5",
+        "printings": [
+            {
+                "name": "ST1-09",
+                "set": "ST-1",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST1-09.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Vaccine",
+        "type": "Cyborg",
+        "dp": "7000",
+        "cost": "7",
+        "digivolveCost1": "3 from LV4",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn] When this Digimon is blocked, gain 3 memory.",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, GAIA RED【ST-1】"
+    },
+    {
+        "name": "Phoenixmon",
+        "number": "ST1-10",
+        "rarity": "R",
+        "color": "red",
+        "level": "LV6",
+        "printings": [
+            {
+                "name": "ST1-10",
+                "set": "ST-1",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST1-10.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "type": "Holy Beast",
+        "dp": "12000",
+        "cost": "10",
+        "digivolveCost1": "2 from LV5",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, GAIA RED【ST-1】"
+    },
+    {
+        "name": "WarGreymon",
+        "number": "ST1-11",
+        "rarity": "SR",
+        "color": "red",
+        "level": "LV6",
+        "printings": [
+            {
+                "name": "ST1-11",
+                "set": "ST-1",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST1-11.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "type": "Dragonkin",
+        "dp": "12000",
+        "cost": "12",
+        "digivolveCost1": "4 from LV5",
+        "digivolveCost2": "-",
+        "effect": "[Your Turn] For every 2 digivolution cards this Digimon has, it gains ＜Security Attack +1＞. (This Digimon checks 1 additional security card.)",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "&rtri;Starter Deck, GAIA RED【ST-1】"
+    },
+    {
+        "name": "Tai Kamiya",
+        "number": "ST1-12",
+        "rarity": "R",
+        "color": "red",
+        "level": "-",
+        "printings": [
+            {
+                "name": "ST1-12",
+                "set": "ST-1",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST1-12.png"
+            }
+        ],
+        "cardType": "Tamer",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "2",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Your Turn] All of your Digimon get +1000 DP.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Play this card without paying its memory cost.",
+        "notes": "&rtri;Starter Deck, GAIA RED【ST-1】"
+    },
+    {
+        "name": "Shadow Wing",
+        "number": "ST1-13",
+        "rarity": "C",
+        "color": "red",
+        "level": "-",
+        "printings": [
+            {
+                "name": "ST1-13",
+                "set": "ST-1",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST1-13.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "1",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] 1 of your Digimon gets +3000 DP for the turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] All of your Digimon gain ＜Security Attack +1＞  (This Digimon checks 1 additional security card) until the end of your next turn.",
+        "notes": "&rtri;Starter Deck, GAIA RED【ST-1】"
+    },
+    {
+        "name": "Starlight Explosion",
+        "number": "ST1-14",
+        "rarity": "C",
+        "color": "red",
+        "level": "-",
+        "printings": [
+            {
+                "name": "ST1-14",
+                "set": "ST-1",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST1-14.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "2",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] All of your Security Digimon get +7000 DP until the end of your opponent's next turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] All of your Security Digimon get +7000 DP for the turn.",
+        "notes": "&rtri;Starter Deck, GAIA RED【ST-1】"
+    },
+    {
+        "name": "Giga Destroyer",
+        "number": "ST1-15",
+        "rarity": "C",
+        "color": "red",
+        "level": "-",
+        "printings": [
+            {
+                "name": "ST1-15",
+                "set": "ST-1",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST1-15.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "6",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] Delete up to 2 of your opponent's Digimon with 4000 DP or less.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Activate this card's [Main] effect.",
+        "notes": "&rtri;Starter Deck, GAIA RED【ST-1】"
+    },
+    {
+        "name": "Gaia Force",
+        "number": "ST1-16",
+        "rarity": "U",
+        "color": "red",
+        "level": "-",
+        "printings": [
+            {
+                "name": "ST1-16",
+                "set": "ST-1",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST1-16.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "8",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] Delete 1 of your opponent's Digimon.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Activate this card's [Main] effect.",
+        "notes": "&rtri;Starter Deck, GAIA RED【ST-1】"
+    }
+]

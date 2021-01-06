@@ -1,0 +1,377 @@
+[
+    {
+        "name": "Agumon",
+        "number": "P-001",
+        "rarity": "P",
+        "color": "red",
+        "level": "LV3",
+        "printings": [
+            {
+                "name": "P-001",
+                "set": "P",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/P-001.png"
+            }
+        ],
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "type": "Reptile",
+        "dp": "3000",
+        "cost": "5",
+        "digivolveCost1": "0 from LV2",
+        "digivolveCost2": "-",
+        "effect": "[On Play] Delete 1 of your opponent's Digimon with 3000 DP or less.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "Promotion Pack Ver 0.0"
+    },
+    {
+        "name": "Biyomon",
+        "number": "P-002",
+        "rarity": "P",
+        "color": "red",
+        "level": "LV3",
+        "printings": [
+            {
+                "name": "P-002",
+                "set": "P",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/P-002.png"
+            }
+        ],
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "type": "Bird",
+        "dp": "2000",
+        "cost": "3",
+        "digivolveCost1": "0 from LV2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn] When this Digimon deletes one of your opponent's Digimon in battle and survives， trigger ＜Draw 1＞. (Draw 1 card from your deck.)",
+        "securityEffect": "-",
+        "notes": "Promotion Pack Ver 0.0"
+    },
+    {
+        "name": "Gabumon",
+        "number": "P-003",
+        "rarity": "P",
+        "color": "blue",
+        "level": "LV3",
+        "printings": [
+            {
+                "name": "P-003",
+                "set": "P",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/P-003.png"
+            }
+        ],
+        "form": "Rookie",
+        "attribute": "Data",
+        "type": "Reptile",
+        "dp": "3000",
+        "cost": "4",
+        "digivolveCost1": "0 from LV2",
+        "digivolveCost2": "-",
+        "effect": "[On Play] Trash the bottom digivolution card of 1 of your opponent's Digimon.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "Promotion Pack Ver 0.0"
+    },
+    {
+        "name": "Gomamon",
+        "number": "P-004",
+        "rarity": "P",
+        "color": "blue",
+        "level": "LV3",
+        "printings": [
+            {
+                "name": "P-004",
+                "set": "P",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/P-004.png"
+            }
+        ],
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "type": "Sea Beast",
+        "dp": "1000",
+        "cost": "3",
+        "digivolveCost1": "0 from LV2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn][Once Per Turn] When you trash a digivolution card of 1 of your opponent's Digimon， gain 1 memory.",
+        "securityEffect": "-",
+        "notes": "Promotion Pack Ver 0.0"
+    },
+    {
+        "name": "Patamon",
+        "number": "P-005",
+        "rarity": "P",
+        "color": "yellow",
+        "level": "LV3",
+        "printings": [
+            {
+                "name": "P-005",
+                "set": "P",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/P-005.png"
+            }
+        ],
+        "form": "Rookie",
+        "attribute": "Data",
+        "type": "Mammal",
+        "dp": "2000",
+        "cost": "4",
+        "digivolveCost1": "0 from LV2",
+        "digivolveCost2": "-",
+        "effect": "[On Play] If you have 1 or fewer security cards， trigger ＜Recovery +1 (Deck)＞. (Place the top card of your deck on top of your security stack.)",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "Promotion Pack Ver 0.0"
+    },
+    {
+        "name": "Gatomon",
+        "number": "P-006",
+        "rarity": "P",
+        "color": "yellow",
+        "level": "LV4",
+        "printings": [
+            {
+                "name": "P-006",
+                "set": "P",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/P-006.png"
+            }
+        ],
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Holy Beast",
+        "dp": "4000",
+        "cost": "4",
+        "digivolveCost1": "2 from LV3",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn] While you have 3 or more security cards， this Digimon gets +1000 DP.",
+        "securityEffect": "-",
+        "notes": "Promotion Pack Ver 0.0"
+    },
+    {
+        "name": "Garurumon",
+        "number": "P-007",
+        "rarity": "P",
+        "color": "blue",
+        "level": "LV4",
+        "printings": [
+            {
+                "name": "P-007",
+                "set": "P",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/P-007.png"
+            }
+        ],
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Beast",
+        "dp": "4000",
+        "cost": "4",
+        "digivolveCost1": "2 from LV3",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[When Attacking] If this Digimon has [Garurumon] in its name， trigger ＜Draw 1＞. (Draw 1 card from your deck.)",
+        "securityEffect": "-",
+        "notes": "Special Box Promotion Pack"
+    },
+    {
+        "name": "WereGarurumon",
+        "number": "P-008",
+        "rarity": "P",
+        "color": "blue",
+        "level": "LV5",
+        "printings": [
+            {
+                "name": "P-008",
+                "set": "P",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/P-008.png"
+            }
+        ],
+        "form": "Ultimate",
+        "attribute": "Vaccine",
+        "type": "Beastkin",
+        "dp": "6000",
+        "cost": "7",
+        "digivolveCost1": "3 from LV4",
+        "digivolveCost2": "-",
+        "effect": "[When Attacking][Once Per Turn] If this Digimon has a [Garurumon] digivolution card， unsuspend this Digimon.",
+        "digivolveEffect": "[Your Turn] While you have 8 or more cards in your hand， this Digimon gains ＜Security Attack +1＞. (This Digimon checks 1 additional security card.)",
+        "securityEffect": "-",
+        "notes": "Special Box Promotion Pack"
+    },
+    {
+        "name": "Agumon",
+        "number": "P-009",
+        "rarity": "P",
+        "color": "red",
+        "level": "LV3",
+        "printings": [
+            {
+                "name": "P-009",
+                "set": "P",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/P-009.png"
+            }
+        ],
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "type": "Reptile",
+        "dp": "2000",
+        "cost": "3",
+        "digivolveCost1": "0 from LV2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn] While this Digimon has [Greymon] in its name， it gets +2000 DP.",
+        "securityEffect": "-",
+        "notes": "Special Box Promotion Pack"
+    },
+    {
+        "name": "Greymon",
+        "number": "P-010",
+        "rarity": "P",
+        "color": "red",
+        "level": "LV4",
+        "printings": [
+            {
+                "name": "P-010",
+                "set": "P",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/P-010.png"
+            }
+        ],
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Dinosaur",
+        "dp": "5000",
+        "cost": "5",
+        "digivolveCost1": "2 from LV3",
+        "digivolveCost2": "-",
+        "effect": "[Your Turn] While this Digimon has an [Agumon] digivolution card， it gains ＜Security Attack +1＞. (This Digimon checks 1 additional security card.)",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": "Special Box Promotion Pack"
+    },
+    {
+        "name": "Veedramon Zero",
+        "number": "P-011",
+        "rarity": "P",
+        "color": "blue",
+        "level": "LV4",
+        "printings": [
+            {
+                "name": "P-011",
+                "set": "P",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/P-011.png"
+            }
+        ],
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Mythical Dragon",
+        "dp": "5000",
+        "cost": "6",
+        "digivolveCost1": "2 from LV3",
+        "digivolveCost2": "-",
+        "effect": "[When Attacking] If you have a blue Tamer， you may trash the top 3 cards of your deck to give this Digimon +2000 DP for the turn.",
+        "digivolveEffect": "[When Attacking] You may place 3 non-Digi-Egg cards from your trash at the bottom of your deck in any order to activate ＜Draw 1＞. (Draw 1 card from your deck.)",
+        "securityEffect": "-",
+        "notes": "Special Box Promotion Pack"
+    },
+    {
+        "name": "Tai Kamiya (V-Tamer)",
+        "number": "P-012",
+        "rarity": "P",
+        "color": "blue",
+        "level": "-",
+        "printings": [
+            {
+                "name": "P-012",
+                "set": "P",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/P-012.png"
+            }
+        ],
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "2",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] If you have a Digimon with [Veedramon] in its name, you may suspend this Tamer to activate one of the following effects:・Trigger . (Draw 1 card from your deck.)・1 of your Digimon gets +1000 DP for the turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Play this card without paying its memory cost.",
+        "notes": "Special Box Promotion PackErrata Card"
+    },
+    {
+        "name": "Greymon",
+        "number": "ST1-07",
+        "rarity": "U",
+        "color": "red",
+        "level": "LV4",
+        "printings": [
+            {
+                "name": "ST1-07_P1",
+                "set": "P",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST1-07_P1.png"
+            }
+        ],
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Dinosaur",
+        "dp": "4000",
+        "cost": "5",
+        "digivolveCost1": "2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "(This Digimon checks 1 additional security card.)",
+        "securityEffect": "-",
+        "notes": "Tamer Party events"
+    },
+    {
+        "name": "Garurumon",
+        "number": "ST2-06",
+        "rarity": "U",
+        "color": "blue",
+        "level": "LV4",
+        "printings": [
+            {
+                "name": "ST2-06_P1",
+                "set": "P",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST2-06_P1.png"
+            }
+        ],
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Beast",
+        "dp": "4000",
+        "cost": "5",
+        "digivolveCost1": "2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[When Attacking] Trash the digivolution card at the bottom of 1 of your opponent's Digimon.",
+        "securityEffect": "-",
+        "notes": "Tamer Party events"
+    },
+    {
+        "name": "Angemon",
+        "number": "ST3-05",
+        "rarity": "U",
+        "color": "yellow",
+        "level": "LV4",
+        "printings": [
+            {
+                "name": "ST3-05_P1",
+                "set": "P",
+                "imageURL": "https://world.digimoncard.com/images/cardlist/card/ST3-05_P1.png"
+            }
+        ],
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Angel",
+        "dp": "4000",
+        "cost": "5",
+        "digivolveCost1": "2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[When Attacking] If you have 4 or more security cards, gain 1 memory.",
+        "securityEffect": "-",
+        "notes": "Tamer Party events"
+    }
+]
