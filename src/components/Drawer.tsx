@@ -1,9 +1,10 @@
-import React from "react";
-import { IconButton, makeStyles, Drawer, useTheme, Button, Divider, List, ListItem, ListItemIcon, ListItemText } from "@material-ui/core";
+import React, { useState } from "react";
+import { IconButton, makeStyles, Drawer, useTheme, Button, Divider, List, ListItem, ListItemIcon, ListItemText, Dialog, DialogTitle, DialogContent, DialogContentText, DialogActions } from "@material-ui/core";
 import {
   ChevronLeft,
   ChevronRight,
   Menu as MenuIcon,
+  ClearAll as ClearAllIcon,
   SaveAlt as SaveAltIcon,
 } from "@material-ui/icons";
 import clsx from "clsx";
@@ -52,7 +53,14 @@ interface Props {
 const DigiDrawer: React.FC<Props> = ({ drawerOpen, handleToggleDrawer }) => {
   const classes = useStyles();
   const theme = useTheme();
-  const { exportAsText } = useDeckHelpers();
+  const [clearConfirmationOpen, setClearConfirmationOpen] = useState(false);
+  const { exportAsText, clearDeck } = useDeckHelpers();
+  const handleOpenClearConfirmation = () => setClearConfirmationOpen(true);
+  const handleCloseClearConfirmation = () => setClearConfirmationOpen(false);
+  const handleAgreeClear = () => {
+    clearDeck();
+    handleCloseClearConfirmation()
+  }
   return (
     <Drawer
       variant="permanent"
@@ -78,7 +86,23 @@ const DigiDrawer: React.FC<Props> = ({ drawerOpen, handleToggleDrawer }) => {
             <ListItemIcon><SaveAltIcon /></ListItemIcon>
             <ListItemText primary={"Export"} />
         </ListItem>
-        </List>
+        <ListItem button onClick={handleOpenClearConfirmation}>
+            <ListItemIcon><ClearAllIcon /></ListItemIcon>
+            <ListItemText primary={"Clear"} />
+        </ListItem>
+      </List>
+      <Dialog open={clearConfirmationOpen} onClose={handleCloseClearConfirmation}>
+        <DialogTitle>Clear Deck?</DialogTitle>
+        <DialogContent>
+          <DialogContentText>
+            This will delete the current deck and start a new one. Currently you can only work on one deck at a time.
+          </DialogContentText>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={handleCloseClearConfirmation} color="primary" autoFocus>Keep deck</Button>
+          <Button onClick={handleAgreeClear} color="primary">Clear Deck</Button>
+        </DialogActions>
+      </Dialog>
     </Drawer>
   );
 };

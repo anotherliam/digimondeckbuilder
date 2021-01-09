@@ -1,5 +1,6 @@
 import { clamp } from "lodash";
 import React, { createContext, useContext, useState } from "react";
+import { createNew } from "typescript";
 import { getCardName } from "./Cards";
 
 const WIP_KEY = "wip";
@@ -18,6 +19,7 @@ type DeckUpdater = (
   changeBy: number,
   section: DeckSection
 ) => void;
+type DeckReplacer = (replacer: (prev: Deck) => Deck) => void;
 
 const DeckContext = createContext<DeckContextType>([null, () => {}]);
 
@@ -52,7 +54,7 @@ const loadAndParseDeck = () => {
   }
 };
 
-export const useDeck = (): [Deck, DeckUpdater] => {
+export const useDeck = (): [Deck, DeckUpdater, DeckReplacer] => {
   const [deck, setDeck] = useContext(DeckContext);
   const update: DeckUpdater = (cardToChange, changeBy, section) => {
     setDeck((prevDeck) => {
@@ -82,20 +84,31 @@ export const useDeck = (): [Deck, DeckUpdater] => {
       return newDeck;
     });
   };
+  const replace: DeckReplacer = (replacerFunc) => {
+    setDeck((prevDeck) => {
+      let newDeck;
+      if (prevDeck === null) {
+        newDeck = replacerFunc(createNewDeck());
+      } else {
+        newDeck = replacerFunc(prevDeck)
+      }
+      localStorage.setItem(WIP_KEY, JSON.stringify(newDeck));
+      return newDeck;
+    })
+  }
   // If deck is null see if we can load one from local storage
   if (deck === null) {
     const loadedDeck = loadAndParseDeck();
     setDeck(loadedDeck);
-    return [loadedDeck, update];
+    return [loadedDeck, update, replace];
   }
   // Deck exists
-  return [deck, update];
+  return [deck, update, replace];
 };
 
 // Helpers
 
-const exportAsText = (deck: Deck | null) => {
-  if (!deck) return false;
+const exportAsText = (deck: Deck) => {
   const mapper = (item: Record<string, number>) =>
     Object.entries(item).map(
       ([cardNo, quantity]) => `${quantity} ${cardNo} (${getCardName(cardNo)})`
@@ -115,10 +128,15 @@ const exportAsText = (deck: Deck | null) => {
   return true;
 };
 
+const clearDeck = (replaceDeck: DeckReplacer) => {
+  replaceDeck(() => createNewDeck());
+}
+
 export const useDeckHelpers = () => {
-  const [deck, setDeck] = useContext(DeckContext);
+  const [deck, updateDeck, replaceDeck] = useDeck()
   return {
     exportAsText: () => exportAsText(deck),
+    clearDeck: () => clearDeck(replaceDeck)
   };
 };
 
