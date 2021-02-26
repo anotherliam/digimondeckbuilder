@@ -1,38 +1,68 @@
-import { FilterSet } from "./Cards";
+import { CardDetails, FilterSet } from "./Cards";
 
 export interface FilterState {
     filters: {
         colours: string[],
         cardTypes: string[],
         text: string,
-        level: string
+        level: string,
+        rarity: string[]
     },
-    changeKey: number
+    changeKey: number,
+    sortBy: SortableByKeys
 }
 
-export interface FilterAction {
+export interface FilterUpdateAction {
     type: keyof FilterState["filters"],
     value: string | string[]
 }
+
+export interface FilterClearAction {
+    type: "clear"
+}
+
+export const SortableBy = ["color", "level", "dp"] as const;
+type SortableByKeys = typeof SortableBy[number];
+
+export interface SortAction {
+    type: "sortBy",
+    value: SortableByKeys
+}
+
+export type FilterAction = FilterUpdateAction | FilterClearAction | SortAction
 
 export const initialFilterState = (): FilterState => ({
     filters: {
         colours: [],
         text: "",
         level: "",
+        rarity: [],
         cardTypes: []
     },
-    changeKey: 1
+    changeKey: 0,
+    sortBy: "color"
 });
 
-export const filterReducer = (state: FilterState, action: FilterAction): FilterState => ({
-    ...state,
-    filters: {
-        ...state.filters,
-        [action.type]: action.value
-    },
-    changeKey: state.changeKey * -1
-});
+export const filterReducer = (state: FilterState, action: FilterAction): FilterState => {
+    if (action.type === "clear") {
+        return initialFilterState();
+    } else if (action.type === "sortBy") {
+        return {
+            ...state,
+            sortBy: action.value,
+            changeKey: (state.changeKey === 0) ? 1 : state.changeKey * -1
+        };
+    } else {
+        return {
+            ...state,
+            filters: {
+                ...state.filters,
+                [action.type]: action.value
+            },
+            changeKey: (state.changeKey === 0) ? 1 : state.changeKey * -1
+        }
+    }
+}
 
 export const getFilters = (filterState: FilterState): FilterSet => {
     const filters: FilterSet = [];
@@ -62,6 +92,13 @@ export const getFilters = (filterState: FilterState): FilterSet => {
             type: "single",
             value: filterState.filters.level,
             on: ["level"]
+        });
+    }
+    if (filterState.filters.rarity.length >= 1) {
+        filters.push({
+            type: "multi",
+            value: filterState.filters.rarity,
+            on: ["rarity"]
         });
     }
     return filters;

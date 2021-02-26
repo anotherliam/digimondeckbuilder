@@ -4,6 +4,7 @@ import st1 from "./json/ST-1.json";
 import st2 from "./json/ST-2.json";
 import st3 from "./json/ST-3.json";
 import { FilterState, getFilters } from "./Filters";
+import { CardHeader } from "@material-ui/core";
 
 
 /**
@@ -19,13 +20,17 @@ export const CARDS = [...st1, ...st2, ...st3, ...v1];
 export const CARDS_BY_NUMBER: Record<string, CardDetails> = {};
 CARDS.forEach((card) => CARDS_BY_NUMBER[card.number] = card);
 
-export const COLOURS = [...(new Set(CARDS.map((card) => card.color)))];
+const getUniqueFields = <T extends CardDetails[keyof CardDetails]>(field: keyof CardDetails): T[] => [...(new Set(CARDS.map((card) => (card[field] as T))))];
 
-export const CARD_TYPES = [...(new Set(CARDS.map((card) => card.cardType)))];
+export const COLOURS = getUniqueFields<string>("color");
+
+export const CARD_TYPES = getUniqueFields<string>("cardType");
+
+export const RARITIES = getUniqueFields<string>("rarity");
 
 export const getCardName = (cardNo: string) => CARDS_BY_NUMBER[cardNo].name;
 
-type FilterableFields = "name" | "effect" | "digivolveEffect" | "securityEffect" | "level" | "color" | "cardType";
+type FilterableFields = "name" | "effect" | "digivolveEffect" | "securityEffect" | "level" | "color" | "cardType" | "rarity";
 
 // Requires one of the fields to contain the value
 export interface SingleFilter {
@@ -88,6 +93,7 @@ export const useCards = (filterState: FilterState, cardsPerPage: number, page: n
     let filtered: CardDetails[];
     if (filterUpdated || filterResultRef.current === null) {
         const filters = getFilters(filterState);
+        const { sortBy } = filterState;
         filtered = CARDS.filter((card) => {
             // Check each filter
             for (let filter of filters) {
@@ -102,6 +108,11 @@ export const useCards = (filterState: FilterState, cardsPerPage: number, page: n
             }
             return true;
         });
+        if (sortBy === "dp") {
+            filtered = filtered.sort((a, b) => (+a[sortBy]) - (+b[sortBy]));
+        } else {
+            filtered = filtered.sort((a, b) => a[sortBy].localeCompare(b[sortBy]));
+        }
         filterResultRef.current = filtered;
     } else {
         filtered = filterResultRef.current;

@@ -9,10 +9,11 @@ import {
   makeStyles,
   FormControl,
   InputLabel,
+  Button,
 } from "@material-ui/core";
-import { COLOURS, CARD_TYPES } from "../Cards";
+import { COLOURS, CARD_TYPES, RARITIES } from "../Cards";
 import React from "react";
-import { FilterAction, FilterState } from "../Filters";
+import { FilterAction, FilterState, SortableBy } from "../Filters";
 import { SearchRounded } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
@@ -20,11 +21,17 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     display: "flex",
     alignItems: "center",
+    flexWrap: "wrap"
   },
   formControl: {
     margin: theme.spacing(1),
     minWidth: 140
   },
+  clearButtonContainer: {
+    marginTop: theme.spacing(1),
+    marginLeft: theme.spacing(1),
+    marginRight: theme.spacing(1)
+  }
 }));
 
 interface Props {
@@ -52,55 +59,107 @@ const FilterPanel: React.FC<Props> = ({ dispatch, state }) => {
     dispatch({ type: "text", value: ev.target.value });
   const handleChangeLevel = (ev: any) =>
     dispatch({ type: "level", value: ev.target.value });
+  const handleChangeRarity = (ev: any) =>
+    dispatch({ type: "rarity", value: ev.target.value });
+  const handleClearFilters = () => dispatch({ type: "clear" });
+  const handleChangeSort = (ev: any) => dispatch({ type: "sortBy", value: ev.target.value });
   return (
-    <div className={classes.container}>
-      <TextField
-        value={state.filters.text}
-        onChange={handleChangeSearch}
-        size="small"
-        margin="dense"
-        InputProps={{
-          startAdornment: (
-            <InputAdornment position="start">
-              <SearchRounded />
-            </InputAdornment>
-          ),
-        }}
-        type="search"
-        label="Search Name & Text"
-      />
-      <FormControl className={classes.formControl}>
-        <InputLabel>Colour</InputLabel>
-        <Select
-          MenuProps={MenuProps}
-          multiple
-          value={state.filters.colours}
-          onChange={handleChangeColours}
-          input={<Input />}
-        >
-          {COLOURS.map((col) => (
-            <MenuItem key={col} value={col}>
-              {col}
-            </MenuItem>
-          ))}
-        </Select>
-      </FormControl>
-      <FormControl className={classes.formControl}>
-        <InputLabel>Card Type</InputLabel>
-        <Select
+    <div>
+      <div className={classes.clearButtonContainer}>
+        <Button onClick={handleClearFilters}>Clear Filters</Button>
+      </div>
+      <div className={classes.container}>
+        <div className={classes.formControl}>
+          <TextField
+            value={state.filters.text}
+            onChange={handleChangeSearch}
+            size="small"
+            margin="dense"
+            InputProps={{
+              startAdornment: (
+                <InputAdornment position="start">
+                  <SearchRounded />
+                </InputAdornment>
+              ),
+            }}
+            type="search"
+            label="Search Name & Text"
+          />
+        </div>
+        <FormControl className={classes.formControl}>
+          <InputLabel>Colour</InputLabel>
+          <Select
+            MenuProps={MenuProps}
+            multiple
+            value={state.filters.colours}
+            onChange={handleChangeColours}
+            input={<Input />}
+          >
+            {COLOURS.map((col) => (
+              <MenuItem key={col} value={col}>
+                {col}
+              </MenuItem>
+            ))}
+          </Select>
+        </FormControl>
+        <FormControl className={classes.formControl}>
+          <InputLabel>Card Type</InputLabel>
+          <Select
             MenuProps={MenuProps}
             multiple
             value={state.filters.cardTypes}
             onChange={handleChangeCardTypes}
             input={<Input />}
-        >
+          >
             {CARD_TYPES.map((col) => (
-            <MenuItem key={col} value={col}>
+              <MenuItem key={col} value={col}>
                 {col}
-            </MenuItem>
+              </MenuItem>
             ))}
-        </Select>
-      </FormControl>
+          </Select>
+        </FormControl>
+        <FormControl className={classes.formControl}>
+          <InputLabel>Level</InputLabel>
+          <Input
+            value={state.filters.level}
+            onChange={handleChangeLevel}
+            type="number" />
+        </FormControl>
+        <FormControl className={classes.formControl}>
+          <InputLabel>Rarity</InputLabel>
+          <Select
+            MenuProps={MenuProps}
+            multiple
+            value={state.filters.rarity}
+            onChange={handleChangeRarity}
+            input={<Input />}
+          >
+            {RARITIES.map((rarity) => (
+              <MenuItem key={rarity} value={rarity}>
+                {rarity}
+              </MenuItem>
+            ))}
+          </Select>
+        </FormControl>
+      </div>
+      <div className={classes.container}>
+        <FormControl className={classes.formControl}>
+          <InputLabel>Sort By</InputLabel>
+          <Select
+            MenuProps={MenuProps}
+            value={state.sortBy}
+            onChange={handleChangeSort}
+            input={<Input />}
+          >
+            {SortableBy.map((sort) => (
+              <MenuItem key={sort} value={sort}>
+                {sort}
+              </MenuItem>
+            ))}
+            
+          </Select>
+        </FormControl>
+      </div>
     </div>
   );
 };
