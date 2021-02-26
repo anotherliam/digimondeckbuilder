@@ -1,5 +1,6 @@
 import React, { useMemo, useReducer, useRef } from "react";
 import v1 from "./json/V.1.0.json";
+import v15 from "./json/V.1.5.json";
 import st1 from "./json/ST-1.json";
 import st2 from "./json/ST-2.json";
 import st3 from "./json/ST-3.json";
@@ -15,7 +16,7 @@ import { CardHeader } from "@material-ui/core";
 
 export type CardDetails = typeof v1[0];
 
-export const CARDS = [...st1, ...st2, ...st3, ...v1];
+export const CARDS = [...st1, ...st2, ...st3, ...v1, ...v15];
 
 export const CARDS_BY_NUMBER: Record<string, CardDetails> = {};
 CARDS.forEach((card) => CARDS_BY_NUMBER[card.number] = card);
@@ -27,6 +28,10 @@ export const COLOURS = getUniqueFields<string>("color");
 export const CARD_TYPES = getUniqueFields<string>("cardType");
 
 export const RARITIES = getUniqueFields<string>("rarity");
+
+export const SETS = [...(new Set(
+    CARDS.flatMap((card) => card.printings.map((printing) => printing.set))
+))];
 
 export const getCardName = (cardNo: string) => CARDS_BY_NUMBER[cardNo].name;
 
@@ -46,7 +51,12 @@ export interface MultiFilter {
     value: string[];
 }
 
-export type Filter = SingleFilter | MultiFilter;
+export interface SetFilter {
+    type: "set";
+    value: string[];
+}
+
+export type Filter = SingleFilter | MultiFilter | SetFilter;
 
 export type FilterSet = Filter[]
 
@@ -72,6 +82,15 @@ const checkMultiFilter = (filter: MultiFilter, card: CardDetails): boolean => {
     if (filterValue.length <= 0) return true;
     for (let filterOn of filter.on) {
         if (filterValue.includes(card[filterOn].toLowerCase())) return true;
+    }
+    return false;
+}
+
+const checkSetFilter = (filter: SetFilter, card: CardDetails): boolean => {
+    let filterValue = filter.value.map((f) => f.toLowerCase());
+    if (filterValue.length <= 0) return true;
+    for (let set of card.printings.map((printing) => printing.set)) {
+        if (filterValue.includes(set.toLowerCase())) return true;
     }
     return false;
 }
@@ -103,6 +122,9 @@ export const useCards = (filterState: FilterState, cardsPerPage: number, page: n
                         break;
                     case "multi":
                         if (!checkMultiFilter(filter, card)) return false;
+                        break;
+                    case "set":
+                        if (!checkSetFilter(filter, card)) return false;
                         break;
                 }
             }

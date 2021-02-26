@@ -11,7 +11,7 @@ import {
   InputLabel,
   Button,
 } from "@material-ui/core";
-import { COLOURS, CARD_TYPES, RARITIES } from "../Cards";
+import { COLOURS, CARD_TYPES, RARITIES, SETS } from "../Cards";
 import React from "react";
 import { FilterAction, FilterState, SortableBy } from "../Filters";
 import { SearchRounded } from "@material-ui/icons";
@@ -59,6 +59,8 @@ const FilterPanel: React.FC<Props> = ({ dispatch, state }) => {
     dispatch({ type: "text", value: ev.target.value });
   const handleChangeLevel = (ev: any) =>
     dispatch({ type: "level", value: ev.target.value });
+    const handleChangeSet = (ev: any) =>
+      dispatch({ type: "set", value: ev.target.value });
   const handleChangeRarity = (ev: any) =>
     dispatch({ type: "rarity", value: ev.target.value });
   const handleClearFilters = () => dispatch({ type: "clear" });
@@ -124,6 +126,22 @@ const FilterPanel: React.FC<Props> = ({ dispatch, state }) => {
             value={state.filters.level}
             onChange={handleChangeLevel}
             type="number" />
+        </FormControl>
+        <FormControl className={classes.formControl}>
+          <InputLabel>Set</InputLabel>
+          <Select
+            MenuProps={MenuProps}
+            multiple
+            value={state.filters.set}
+            onChange={handleChangeSet}
+            input={<Input />}
+          >
+            {SETS.map((set) => (
+              <MenuItem key={set} value={set}>
+                {set}
+              </MenuItem>
+            ))}
+          </Select>
         </FormControl>
         <FormControl className={classes.formControl}>
           <InputLabel>Rarity</InputLabel>

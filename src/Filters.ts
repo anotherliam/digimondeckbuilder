@@ -6,7 +6,8 @@ export interface FilterState {
         cardTypes: string[],
         text: string,
         level: string,
-        rarity: string[]
+        rarity: string[],
+        set: string[]
     },
     changeKey: number,
     sortBy: SortableByKeys
@@ -37,7 +38,8 @@ export const initialFilterState = (): FilterState => ({
         text: "",
         level: "",
         rarity: [],
-        cardTypes: []
+        cardTypes: [],
+        set: []
     },
     changeKey: 0,
     sortBy: "color"
@@ -99,6 +101,12 @@ export const getFilters = (filterState: FilterState): FilterSet => {
             type: "multi",
             value: filterState.filters.rarity,
             on: ["rarity"]
+        });
+    }
+    if (filterState.filters.set.length >= 1) {
+        filters.push({
+            type: "set",
+            value: filterState.filters.set
         });
     }
     return filters;
