@@ -1,7 +1,7 @@
 import { clamp } from "lodash";
 import React, { createContext, useContext, useState } from "react";
 import { createNew } from "typescript";
-import { getCardName } from "./Cards";
+import { CardDetails, CARDS_BY_NUMBER, getCardName } from "./Cards";
 
 const WIP_KEY = "wip";
 export interface Deck {
@@ -21,7 +21,7 @@ type DeckUpdater = (
 ) => void;
 type DeckReplacer = (replacer: (prev: Deck) => Deck) => void;
 
-const DeckContext = createContext<DeckContextType>([null, () => {}]);
+const DeckContext = createContext<DeckContextType>([null, () => { }]);
 
 const createNewDeck = (): Deck => ({
   main: {},
@@ -132,11 +132,28 @@ const clearDeck = (replaceDeck: DeckReplacer) => {
   replaceDeck(() => createNewDeck());
 }
 
+const getArrayOfCardsFiltered = (deckEntries: [CardDetails, number][], cardType: string) =>
+  deckEntries.flatMap(([card, count]) => card.cardType.toLowerCase() === cardType ? (new Array(count)).fill(card) : []);
+
+const getDeckStats = (deck: Deck) => {
+  // Get digimon count
+  const deckEntries: [CardDetails, number][] = Object.entries(deck.main).map(([id, count]) => [CARDS_BY_NUMBER[id], count]);
+  const digimon: CardDetails[] = getArrayOfCardsFiltered(deckEntries, "digimon");
+  const optionCount: number = getArrayOfCardsFiltered(deckEntries, "option").length;
+  const tamerCount: number = getArrayOfCardsFiltered(deckEntries, "tamer").length;
+  const levelCounts: Record<string, number> = digimon.reduce((acc: Record<string, number>, { level }) => {
+    acc[level] ? acc[level]++ : acc[level] = 1;
+    return acc;
+  }, {})
+  return { optionCount, tamerCount, levelCounts: Object.entries(levelCounts) };
+}
+
 export const useDeckHelpers = () => {
   const [deck, updateDeck, replaceDeck] = useDeck()
   return {
     exportAsText: () => exportAsText(deck),
-    clearDeck: () => clearDeck(replaceDeck)
+    clearDeck: () => clearDeck(replaceDeck),
+    getStats: () => getDeckStats(deck)
   };
 };
 

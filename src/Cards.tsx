@@ -35,6 +35,14 @@ export const SETS = [...(new Set(
 
 export const getCardName = (cardNo: string) => CARDS_BY_NUMBER[cardNo].name;
 
+export const LevelToFormMapping: {[key: string]: string} = {
+    "lv.3": "LV.3 (Rookie)",
+    "lv.4": "LV.4 (Champion)",
+    "lv.5": "LV.5 (Ultimate)",
+    "lv.6": "LV.6 (Mega)",
+    "lv.7": "LV.7 (Mega)"
+};
+
 type FilterableFields = "name" | "effect" | "digivolveEffect" | "securityEffect" | "level" | "color" | "cardType" | "rarity";
 
 // Requires one of the fields to contain the value

@@ -22,7 +22,7 @@ export interface FilterClearAction {
     type: "clear"
 }
 
-export const SortableBy = ["color", "level", "dp"] as const;
+export const SortableBy = ["name", "color", "level", "dp"] as const;
 type SortableByKeys = typeof SortableBy[number];
 
 export interface SortAction {
@@ -42,7 +42,7 @@ export const initialFilterState = (): FilterState => ({
         set: []
     },
     changeKey: 0,
-    sortBy: "color"
+    sortBy: "name"
 });
 
 export const filterReducer = (state: FilterState, action: FilterAction): FilterState => {
