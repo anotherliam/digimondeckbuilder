@@ -145,7 +145,7 @@ const getDeckStats = (deck: Deck) => {
     acc[level] ? acc[level]++ : acc[level] = 1;
     return acc;
   }, {})
-  return { optionCount, tamerCount, levelCounts: Object.entries(levelCounts) };
+  return { optionCount, tamerCount, levelCounts: Object.entries(levelCounts).sort() };
 }
 
 export const useDeckHelpers = () => {
