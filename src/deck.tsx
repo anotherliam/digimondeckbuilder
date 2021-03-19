@@ -1,13 +1,48 @@
 import { clamp } from "lodash";
 import React, { createContext, useContext, useState } from "react";
-import { createNew } from "typescript";
 import { CardDetails, CARDS_BY_NUMBER, getCardName } from "./Cards";
+import { useFirebaseApp } from "reactfire";
+import Firebase from "firebase";
 
-const WIP_KEY = "wip";
-export interface Deck {
+export type CloudSavedDeck = Partial<{
+  created: Firebase.firestore.Timestamp;
+  egg: Record<string, number>;
+  main: Record<string, number>;
+  mtime: Firebase.firestore.Timestamp;
+  name: string;
+  status: DeckPrivacyStatuses;
+  user: string;
+  _id: string;
+}>
+
+export enum DeckPrivacyStatuses {
+  Private = 0,
+  Public = 10
+}
+
+export enum DeckTypes {
+  Persisted = "persisted",
+  Temporary = "temp"
+}
+
+interface DeckBase {
   main: Record<string, number>;
   egg: Record<string, number>;
 }
+
+export interface PersistedDeck extends DeckBase {
+  type: DeckTypes.Persisted;
+  cloudId: string;
+  name: string;
+  dirty: boolean; // Whether the deck has been edited and needs to be resaved
+}
+
+export interface TempDeck extends DeckBase {
+  type: DeckTypes.Temporary;
+}
+
+const WIP_KEY = "wip";
+export type Deck = PersistedDeck | TempDeck;
 type DeckSection = "main" | "egg";
 
 type DeckContextType = [
@@ -24,6 +59,7 @@ type DeckReplacer = (replacer: (prev: Deck) => Deck) => void;
 const DeckContext = createContext<DeckContextType>([null, () => { }]);
 
 const createNewDeck = (): Deck => ({
+  type: DeckTypes.Temporary,
   main: {},
   egg: {},
 });
@@ -66,8 +102,10 @@ export const useDeck = (): [Deck, DeckUpdater, DeckReplacer] => {
         }
       } else {
         // Prev deck exists so copy it in
+        newDeck = { ...prevDeck };
         newDeck.main = { ...prevDeck.main };
         newDeck.egg = { ...prevDeck.egg };
+        if (newDeck.type === DeckTypes.Persisted) newDeck.dirty = true;
         // Prev deck exists, check how many copies of the card are already in
         const cardsInDeck = prevDeck[section][cardToChange] || 0;
         const newCardsInDeck = clamp(cardsInDeck + changeBy, 0, 4);
@@ -132,6 +170,66 @@ const clearDeck = (replaceDeck: DeckReplacer) => {
   replaceDeck(() => createNewDeck());
 }
 
+const saveDeckToCloud = async (name: string, deck: Deck, user: Firebase.User, fbApp: Firebase.app.App, replaceDeck: DeckReplacer) => {
+  const db = fbApp.firestore();
+  const { egg, main } = deck;
+  if (deck.type === DeckTypes.Persisted) {
+    console.warn("Updating save ", deck.cloudId)
+    // Deck is already a saved deck
+    await db.collection("decks").doc(deck.cloudId).update({
+      egg,
+      main,
+      name,
+      mtime: Firebase.firestore.FieldValue.serverTimestamp()
+    });
+    replaceDeck((prev) => ({ ...prev, dirty: false }));
+  } else {
+    // First save uwu
+    console.warn("First save")
+    const newCloudDeck = {
+      egg,
+      main,
+      name,
+      user: user.uid,
+      status: DeckPrivacyStatuses.Private,
+      mtime: Firebase.firestore.FieldValue.serverTimestamp(),
+      created: Firebase.firestore.FieldValue.serverTimestamp()
+    };
+    console.log({ newCloudDeck });
+    const { id } = await db.collection("decks").add(newCloudDeck)
+    console.log("Done! ", id)
+    // Replace the deck
+    console.log("replacin deck");
+    replaceDeck((prev) => ({
+      ...prev,
+      type: DeckTypes.Persisted,
+      cloudId: id,
+      name,
+      dirty: false
+    }));
+    console.log("deck replaced");
+    return true;
+  }
+}
+
+const loadCloudDeck = (deck: CloudSavedDeck, replace: DeckReplacer): boolean => {
+  const { egg, main, status, name, _id } = deck;
+  if (egg === undefined || main === undefined || status === undefined || name === undefined || _id === undefined) {
+    console.error("Invalid deck");
+    return false;
+  } else {
+    replace(() => ({
+      type: DeckTypes.Persisted,
+      dirty: false,
+      cloudId: _id,
+      name,
+      egg,
+      main 
+    }));
+    return true;
+  }
+}
+
 const getArrayOfCardsFiltered = (deckEntries: [CardDetails, number][], cardType: string) =>
   deckEntries.flatMap(([card, count]) => card.cardType.toLowerCase() === cardType ? (new Array(count)).fill(card) : []);
 
@@ -149,11 +247,14 @@ const getDeckStats = (deck: Deck) => {
 }
 
 export const useDeckHelpers = () => {
-  const [deck, updateDeck, replaceDeck] = useDeck()
+  const [deck, updateDeck, replaceDeck] = useDeck();
+  const firebase = useFirebaseApp();
   return {
     exportAsText: () => exportAsText(deck),
     clearDeck: () => clearDeck(replaceDeck),
-    getStats: () => getDeckStats(deck)
+    getStats: () => getDeckStats(deck),
+    saveDeckToCloud: (name: string, user: Firebase.User) => saveDeckToCloud(name, deck, user, firebase, replaceDeck),
+    loadCloudDeck: (cloudDeck: CloudSavedDeck) => loadCloudDeck(cloudDeck, replaceDeck)
   };
 };
 

@@ -4,11 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { CssBaseline } from '@material-ui/core';
+import { firebaseConfig } from "./cloud";
+import { FirebaseAppProvider } from 'reactfire';
 
 ReactDOM.render(
   <React.StrictMode>
     <CssBaseline />
-    <App />
+    <FirebaseAppProvider suspense firebaseConfig={firebaseConfig}>
+      <App />
+    </FirebaseAppProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

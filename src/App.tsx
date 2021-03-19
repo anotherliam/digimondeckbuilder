@@ -1,40 +1,29 @@
-import React, { useCallback, useReducer, useState } from "react";
-import "./App.css";
 import {
   AppBar,
-  CardHeader,
-  Container,
-  Drawer,
+  CircularProgress,
   IconButton,
-  Input,
-  InputAdornment,
   makeStyles,
-  MenuItem,
-  Paper,
-  Select,
-  SelectProps,
-  styled,
-  TextField,
   Toolbar,
-  Typography,
-  useTheme,
+  Typography
 } from "@material-ui/core";
-import clsx from "clsx";
 import {
-  ChevronLeft,
-  ChevronRight,
-  SearchRounded,
-  Menu as MenuIcon,
+  Menu as MenuIcon
 } from "@material-ui/icons";
+import clsx from "clsx";
+import 'firebase/auth';
+import 'firebase/firestore';
+import React, { Suspense, useCallback, useState } from "react";
+import "./App.css";
+import DeckListModal from "./components/DeckListModal";
+import DigiDrawer from "./components/Drawer";
+import UserStatusBar from "./components/UserStatusBar";
+import { DRAWER_WIDTH } from "./config";
+import { DeckProvider } from "./deck";
 import CardPanel from "./panels/CardPanel";
 import DeckPanel from "./panels/DeckPanel";
-import FilterPanel from "./panels/FilterPanel";
-import { filterReducer, getFilters, initialFilterState } from "./Filters";
-import { CardDetails } from "./Cards";
-import { clamp } from "lodash";
-import { DeckProvider } from "./deck";
-import DigiDrawer from "./components/Drawer";
-import { DRAWER_WIDTH } from "./config";
+
+
+
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -83,11 +72,13 @@ const useStyles = makeStyles((theme) => ({
       duration: theme.transitions.duration.enteringScreen,
     }),
   },
+  title: {
+    flexGrow: 1
+  }
 }));
 
 function App() {
   const classes = useStyles();
-  const theme = useTheme();
 
   const [drawerOpen, setDrawerOpen] = useState(false);
 
@@ -118,9 +109,13 @@ function App() {
             >
               <MenuIcon />
             </IconButton>
-            <Typography variant="h6">Digimon Card Viewer</Typography>
+            <Typography variant="h6" className={classes.title}>Digimon Card Viewer</Typography>
+            <Suspense fallback={<CircularProgress />}>
+              <UserStatusBar />
+            </Suspense>
           </Toolbar>
         </AppBar>
+
 
         <DigiDrawer drawerOpen={drawerOpen} handleToggleDrawer={handleToggleDrawer} />
 

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { Suspense, useState } from "react";
 import { IconButton, makeStyles, Drawer, useTheme, Button, Divider, List, ListItem, ListItemIcon, ListItemText, Dialog, DialogTitle, DialogContent, DialogContentText, DialogActions } from "@material-ui/core";
 import {
   ChevronLeft,
@@ -6,10 +6,13 @@ import {
   Menu as MenuIcon,
   ClearAll as ClearAllIcon,
   SaveAlt as SaveAltIcon,
+  CloudDownload as CloudDownloadIcon,
 } from "@material-ui/icons";
 import clsx from "clsx";
 import { DRAWER_WIDTH } from "../config";
 import { useDeckHelpers } from "../deck";
+import DeckListModal from "./DeckListModal";
+import { AuthCheck } from "reactfire";
 
 const useStyles = makeStyles((theme) => ({
   drawer: {
@@ -61,6 +64,11 @@ const DigiDrawer: React.FC<Props> = ({ drawerOpen, handleToggleDrawer }) => {
     clearDeck();
     handleCloseClearConfirmation()
   }
+
+  const [deckListModalOpen, setDeckListModalOpen] = useState(false);
+  const handleCloseDeckListModal = () => setDeckListModalOpen(false);
+  const handleOpenDeckListModal = () => setDeckListModalOpen(true);
+
   return (
     <Drawer
       variant="permanent"
@@ -90,7 +98,16 @@ const DigiDrawer: React.FC<Props> = ({ drawerOpen, handleToggleDrawer }) => {
             <ListItemIcon><ClearAllIcon /></ListItemIcon>
             <ListItemText primary={"Clear"} />
         </ListItem>
+        <Suspense fallback={null}>
+          <AuthCheck fallback={null}>
+            <ListItem button onClick={handleOpenDeckListModal}>
+                <ListItemIcon><CloudDownloadIcon /></ListItemIcon>
+                <ListItemText primary={"Load Deck"} />
+            </ListItem>
+          </AuthCheck>
+        </Suspense>
       </List>
+
       <Dialog open={clearConfirmationOpen} onClose={handleCloseClearConfirmation}>
         <DialogTitle>Clear Deck?</DialogTitle>
         <DialogContent>
@@ -103,6 +120,8 @@ const DigiDrawer: React.FC<Props> = ({ drawerOpen, handleToggleDrawer }) => {
           <Button onClick={handleAgreeClear} color="primary">Clear Deck</Button>
         </DialogActions>
       </Dialog>
+      
+      <DeckListModal open={deckListModalOpen} handleClose={handleCloseDeckListModal} />
     </Drawer>
   );
 };
