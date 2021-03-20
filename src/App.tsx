@@ -21,7 +21,8 @@ import { DRAWER_WIDTH } from "./config";
 import { DeckProvider } from "./deck";
 import CardPanel from "./panels/CardPanel";
 import DeckPanel from "./panels/DeckPanel";
-
+import { RouteComponentProps, Router } from "@reach/router";
+import DeckViewer from "./components/DeckViewer";
 
 
 
@@ -77,6 +78,11 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
+const Panels: React.FC<RouteComponentProps> = ({ children }) => <>
+  <DeckPanel />
+  <CardPanel />
+</>;
+
 function App() {
   const classes = useStyles();
 
@@ -124,8 +130,12 @@ function App() {
             [classes.pageContainerShifted]: drawerOpen,
           })}
         >
-          <DeckPanel />
-          <CardPanel />
+          <Suspense fallback={<CircularProgress />}>
+            <Router>
+              <Panels default />
+              <DeckViewer path="deck/:deckId" />
+            </Router>
+          </Suspense>
         </div>
       </>
     </DeckProvider>

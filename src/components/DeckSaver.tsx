@@ -1,7 +1,7 @@
 import { Button, Dialog, DialogActions, DialogContent, DialogTitle, Input, Typography } from "@material-ui/core";
 import React, { useState } from "react";
 import { AuthCheck, useUser } from "reactfire";
-import { DeckTypes, useDeck, useDeckHelpers } from "../deck";
+import { DeckPrivacyStatuses, DeckTypes, useDeck, useDeckHelpers } from "../deck";
 
 
 const DeckSaver = () => {
@@ -9,10 +9,10 @@ const DeckSaver = () => {
     const [pending, setPending] = useState(false);
     const [name, setName] = useState("");
     const [saveModalOpen, setSaveModalOpen] = useState(false);
-    const { saveDeckToCloud } = useDeckHelpers();
+    const { saveDeckToCloud, changeDeckPrivacy } = useDeckHelpers();
     const user = useUser();
 
-    const handleSave = async() => {
+    const handleSave = async () => {
         setSaveModalOpen(false);
         setPending(true);
         try { 
@@ -28,6 +28,18 @@ const DeckSaver = () => {
         setSaveModalOpen(true);
     }
 
+    const handleSharePublicDeck = async () => {
+        setPending(true);
+        try {
+            const res = await changeDeckPrivacy(user.data);
+        } catch (e) {
+            console.warn(e);
+        }
+        setTimeout(() => setPending(false), 500);
+    }
+
+    const deckUrl = deck.type === DeckTypes.Persisted ? `${window.location.origin}/deck/${deck.cloudId}` : "";
+
     return (<AuthCheck fallback={null}>
         {
             deck.type === DeckTypes.Temporary ? (
@@ -39,6 +51,18 @@ const DeckSaver = () => {
                 <Button disabled={pending || !deck.dirty} onClick={handleSave}>{pending ? "Saving..." : !deck.dirty ? "Up to date" : "Save"}</Button>
             )
         }
+        {deck.type === DeckTypes.Persisted && (
+            deck.privacy === DeckPrivacyStatuses.Private ? (
+                <>
+                    <Typography>Deck is private</Typography>
+                    <Button disabled={pending} onClick={handleSharePublicDeck}>Share Publically</Button>
+                </>
+            ) : (
+                <>
+                <Typography>Deck is public. Shareable link to deck: <a href={deckUrl}>{deckUrl}</a></Typography>
+                </>
+            )
+        )}
         <Dialog open={saveModalOpen} onClose={() => setSaveModalOpen(false)}>
             <DialogTitle>Save Deck to Cloud</DialogTitle>
             <DialogContent>

@@ -4,6 +4,7 @@ import v15 from "./json/V.1.5.json";
 import st1 from "./json/ST-1.json";
 import st2 from "./json/ST-2.json";
 import st3 from "./json/ST-3.json";
+import p from "./json/P.json";
 import { FilterState, getFilters } from "./Filters";
 import { CardHeader } from "@material-ui/core";
 
@@ -16,7 +17,7 @@ import { CardHeader } from "@material-ui/core";
 
 export type CardDetails = typeof v1[0];
 
-export const CARDS = [...st1, ...st2, ...st3, ...v1, ...v15];
+export const CARDS = [...st1, ...st2, ...st3, ...v1, ...v15, ...p];
 
 export const CARDS_BY_NUMBER: Record<string, CardDetails> = {};
 CARDS.forEach((card) => CARDS_BY_NUMBER[card.number] = card);

@@ -2,7 +2,7 @@ import {
     makeStyles,
     Paper
 } from "@material-ui/core";
-import { Router } from "@reach/router";
+import { RouteComponentProps, Router } from "@reach/router";
 import React, { useReducer, useState } from "react";
 import { CardDetails, CARDS, useCards } from "../Cards";
 import CardListView, { CARDS_PER_PAGE } from "../components/CardListView";
@@ -64,7 +64,7 @@ const CardPanel: React.FC<Props> = () => {
           handlePrevPage={() => setPage(filtered.actualPage - 1)}
           filtered={filtered}
         />
-        <CardView path="/card/:cardNum" />
+        <CardView path="card/:cardNum" />
       </Router>
     </Paper>
   );

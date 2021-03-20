@@ -17,6 +17,7 @@ export type CloudSavedDeck = Partial<{
 
 export enum DeckPrivacyStatuses {
   Private = 0,
+  Unlisted = 1,
   Public = 10
 }
 
@@ -35,6 +36,7 @@ export interface PersistedDeck extends DeckBase {
   cloudId: string;
   name: string;
   dirty: boolean; // Whether the deck has been edited and needs to be resaved
+  privacy: DeckPrivacyStatuses;
 }
 
 export interface TempDeck extends DeckBase {
@@ -43,7 +45,7 @@ export interface TempDeck extends DeckBase {
 
 const WIP_KEY = "wip";
 export type Deck = PersistedDeck | TempDeck;
-type DeckSection = "main" | "egg";
+export type DeckSection = "main" | "egg";
 
 type DeckContextType = [
   Deck | null,
@@ -179,10 +181,10 @@ const saveDeckToCloud = async (name: string, deck: Deck, user: Firebase.User, fb
     await db.collection("decks").doc(deck.cloudId).update({
       egg,
       main,
-      name,
+      status: deck.privacy,
       mtime: Firebase.firestore.FieldValue.serverTimestamp()
     });
-    replaceDeck((prev) => ({ ...prev, dirty: false }));
+    replaceDeck(() => ({ ...deck, dirty: false }));
   } else {
     // First save uwu
     console.warn("First save")
@@ -205,7 +207,8 @@ const saveDeckToCloud = async (name: string, deck: Deck, user: Firebase.User, fb
       type: DeckTypes.Persisted,
       cloudId: id,
       name,
-      dirty: false
+      dirty: false,
+      privacy: newCloudDeck.status
     }));
     console.log("deck replaced");
     return true;
@@ -222,9 +225,10 @@ const loadCloudDeck = (deck: CloudSavedDeck, replace: DeckReplacer): boolean => 
       type: DeckTypes.Persisted,
       dirty: false,
       cloudId: _id,
+      privacy: status,
       name,
       egg,
-      main 
+      main
     }));
     return true;
   }
@@ -246,6 +250,12 @@ const getDeckStats = (deck: Deck) => {
   return { optionCount, tamerCount, levelCounts: Object.entries(levelCounts).sort() };
 }
 
+const changeDeckPrivacy = (deck: Deck, user: Firebase.User, fbApp: Firebase.app.App, replaceDeck: DeckReplacer) => {
+  if (deck.type === DeckTypes.Temporary) return false;
+  const newDeck = { ...deck, privacy: DeckPrivacyStatuses.Public };
+  return saveDeckToCloud("", newDeck, user, fbApp, replaceDeck);
+}
+
 export const useDeckHelpers = () => {
   const [deck, updateDeck, replaceDeck] = useDeck();
   const firebase = useFirebaseApp();
@@ -254,7 +264,8 @@ export const useDeckHelpers = () => {
     clearDeck: () => clearDeck(replaceDeck),
     getStats: () => getDeckStats(deck),
     saveDeckToCloud: (name: string, user: Firebase.User) => saveDeckToCloud(name, deck, user, firebase, replaceDeck),
-    loadCloudDeck: (cloudDeck: CloudSavedDeck) => loadCloudDeck(cloudDeck, replaceDeck)
+    loadCloudDeck: (cloudDeck: CloudSavedDeck) => loadCloudDeck(cloudDeck, replaceDeck),
+    changeDeckPrivacy: (user: Firebase.User) => changeDeckPrivacy(deck, user, firebase, replaceDeck)
   };
 };
 

@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useMemo } from "react";
 import { Accordion, AccordionDetails, AccordionSummary, makeStyles, Theme, Typography, Card, Button } from "@material-ui/core";
 import { ExpandMore } from "@material-ui/icons";
 import { CardDetails, CARDS, LevelToFormMapping } from "../Cards";
@@ -8,6 +8,7 @@ import { DeckTypes, useDeck, useDeckHelpers } from "../deck";
 import DeckListItem from "../components/DeckListItem";
 import { AuthCheck, useUser } from "reactfire";
 import DeckSaver from "../components/DeckSaver";
+import DeckListSection from "../components/DeckListSection";
 
 const MAX_MAIN_CARDS = 50;
 const MAX_EGG_CARDS = 5;
@@ -66,14 +67,31 @@ const DeckPanel: React.FC<Props> = () => {
     const mainDeck = getCardsList(deck.main);
     const eggDeck = getCardsList(deck.egg);
     
-    const deckStats = getStats();
-
     const totalMainDeckCards = sumBy(mainDeck, cardCounter);
     const totalEggDeckCards = sumBy(eggDeck, cardCounter);
     const mainOverflow = totalMainDeckCards > MAX_MAIN_CARDS;
     const eggOverflow = totalEggDeckCards > MAX_EGG_CARDS;
 
     const classes = useStyles({ eggOverflow, mainOverflow });
+
+    const sortedEggs = useMemo(() => [...eggDeck].sort(([a], [b]) => a.name.localeCompare(b.name)), [eggDeck]);
+    const cardsBySection = useMemo(() => {
+        const options = mainDeck.filter(([card]) => card.cardType.toLowerCase() === "option");
+        const tamers = mainDeck.filter(([card]) => card.cardType.toLowerCase() === "tamer");
+        const allDigimon = mainDeck.filter(([card]) => card.cardType.toLowerCase() === "digimon");
+        const digimon = new Map<string, [CardDetails, number][]>();
+        allDigimon.forEach(([digi, num]) => {
+            const list = digimon.get(digi.level);
+            if (list) list.push([digi, num]);
+            else digimon.set(digi.level, [[digi, num]]);
+        })
+        // Sort digimon into levels 
+        return {
+            digimon: [...digimon.entries()].sort((a, b) => a[0].localeCompare(b[0])),
+            options,
+            tamers
+        }
+    }, [mainDeck])
 
     return <Accordion>
         <AccordionSummary expandIcon={<ExpandMore />}>
@@ -91,30 +109,19 @@ const DeckPanel: React.FC<Props> = () => {
                     <DeckSaver />
                 </Suspense>
                 <div className={classes.container}>
-                    <Card className={classes.statisticsContainer}>
-                        <Typography variant="h6">Deck Stats</Typography>
-                        <div className={classes.statsContainerInner}>
-                            <div>
-                                {deckStats.levelCounts.map(([level, count]) => (
-                                    <Typography>{LevelToFormMapping[level.toLowerCase()]}: {count}</Typography>
-                                ))}
-                            </div>
-                            <div>
-                                {deckStats.optionCount >= 1 && <Typography>Options: {deckStats.optionCount}</Typography>}
-                                {deckStats.tamerCount >= 1 && <Typography>Tamers: {deckStats.tamerCount}</Typography>}
-                            </div>
-                            {totalMainDeckCards <= 0 && <Typography>Main deck is empty!</Typography>}
-                        </div>
-                    </Card>
                     <div className={classes.deckSectionContainer}>
                         <Typography variant="h6">Main</Typography>
-                        {mainDeck.map(([card, num]) => (
-                            <DeckListItem card={card} quantity={num} handleChangeCardBy={(by: number) => handleChangeDeck(card.number, by, "main")} />
-                        ))}
+                        <DeckListSection title="Options" cards={cardsBySection.options} handleChangeDeck={handleChangeDeck} />
+                        <DeckListSection title="Tamers" cards={cardsBySection.tamers} handleChangeDeck={handleChangeDeck} />
+                        {
+                            cardsBySection.digimon.map(([level, digis]) => (
+                                <DeckListSection title={level} cards={digis} handleChangeDeck={handleChangeDeck} />
+                            ))
+                        }
                     </div>
                     <div className={classes.deckSectionContainer}>
                         <Typography variant="h6">Egg</Typography>
-                        {eggDeck.map(([card, num]) => (
+                        {sortedEggs.map(([card, num]) => (
                             <DeckListItem card={card} quantity={num} handleChangeCardBy={(by: number) => handleChangeDeck(card.number, by, "egg")} />
                         ))}
                     </div>
