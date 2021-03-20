@@ -1,0 +1,418 @@
+[
+    {
+        "name": "Kapurimon",
+        "number": "ST5-01",
+        "rarity": "U",
+        "color": "black",
+        "level": "Lv.2",
+        "printings": [
+            {
+                "name": "ST5-01",
+                "set": "ST-6",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/ST5-01.png"
+            }
+        ],
+        "cardType": "Digi-Egg",
+        "form": "In-Training",
+        "attribute": "-",
+        "type": "Lesser",
+        "dp": "-",
+        "cost": "-",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn] While this Digimon has , it gets +1000 DP.",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Jazamon",
+        "number": "ST5-02",
+        "rarity": "C",
+        "color": "black",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "ST5-02",
+                "set": "ST-6",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/ST5-02.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Data",
+        "type": "Bird Dragon",
+        "dp": "4000",
+        "cost": "2",
+        "digivolveCost1": "1  from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Agumon",
+        "number": "ST5-03",
+        "rarity": "U",
+        "color": "black",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "ST5-03",
+                "set": "ST-6",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/ST5-03.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "type": "Reptile",
+        "dp": "1000",
+        "cost": "3",
+        "digivolveCost1": "0  from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "(When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "ToyAgumon",
+        "number": "ST5-04",
+        "rarity": "C",
+        "color": "black",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "ST5-04",
+                "set": "ST-6",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/ST5-04.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Virus",
+        "type": "Puppet",
+        "dp": "2000",
+        "cost": "3",
+        "digivolveCost1": "0  from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[End of Opponent's Turn] If your opponent didn't attack with a Digimon this turn, trigger . (Draw 1 card from your deck.)",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Commandramon",
+        "number": "ST5-05",
+        "rarity": "C",
+        "color": "black",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "ST5-05",
+                "set": "ST-6",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/ST5-05.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Virus",
+        "type": "Cyborg/D-Brigade",
+        "dp": "5000",
+        "cost": "4",
+        "digivolveCost1": "0  from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Greymon",
+        "number": "ST5-06",
+        "rarity": "C",
+        "color": "black",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "ST5-06",
+                "set": "ST-6",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/ST5-06.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Virus",
+        "type": "Dinosaur",
+        "dp": "4000",
+        "cost": "4",
+        "digivolveCost1": "2  from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[End of Opponent's Turn] If your opponent didn't attack with a Digimon this turn, trigger . (Draw 1 card from your deck.)",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Jazardmon",
+        "number": "ST5-07",
+        "rarity": "C",
+        "color": "black",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "ST5-07",
+                "set": "ST-6",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/ST5-07.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Data",
+        "type": "Machine Dragon",
+        "dp": "6000",
+        "cost": "5",
+        "digivolveCost1": "2  from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "DarkTyrannomon",
+        "number": "ST5-08",
+        "rarity": "U",
+        "color": "black",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "ST5-08",
+                "set": "ST-6",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/ST5-08.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Virus",
+        "type": "Dinosaur",
+        "dp": "5000",
+        "cost": "6",
+        "digivolveCost1": "1  from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "(When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)[When Attacking] Lose 2 memory.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "MetalGreymon",
+        "number": "ST5-09",
+        "rarity": "U",
+        "color": "black",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "ST5-09",
+                "set": "ST-6",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/ST5-09.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Virus",
+        "type": "Cyborg",
+        "dp": "7000",
+        "cost": "6",
+        "digivolveCost1": "3  from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "[When Digivolving] Until the end of your opponent's next turn, 1 of your Digimon gains . (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "MetalTyrannomon",
+        "number": "ST5-10",
+        "rarity": "C",
+        "color": "black",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "ST5-10",
+                "set": "ST-6",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/ST5-10.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Virus",
+        "type": "Cyborg",
+        "dp": "9000",
+        "cost": "6",
+        "digivolveCost1": "3  from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Megadramon",
+        "number": "ST5-11",
+        "rarity": "R",
+        "color": "black",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "ST5-11",
+                "set": "ST-6",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/ST5-11.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Virus",
+        "type": "Cyborg",
+        "dp": "7000",
+        "cost": "7",
+        "digivolveCost1": "3  from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "(When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Machinedramon",
+        "number": "ST5-12",
+        "rarity": "R",
+        "color": "black",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "ST5-12",
+                "set": "ST-6",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/ST5-12.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Virus",
+        "type": "Machine",
+        "dp": "11000",
+        "cost": "10",
+        "digivolveCost1": "3  from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "[When Digivolving] Up to 2 of your Digimon gain   (Unsuspend this Digimon during your opponent's unsuspend phase) until the end of your opponent's next turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "BlitzGreymon",
+        "number": "ST5-13",
+        "rarity": "SR",
+        "color": "black",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "ST5-13",
+                "set": "ST-6",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/ST5-13.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Virus",
+        "type": "Cyborg",
+        "dp": "12000",
+        "cost": "12",
+        "digivolveCost1": "4  from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "(This Digimon checks 1 additional security card.)[Main]  (Trash 2 of this Digimon's Digivolution cards to activate the effect below.)・1 of your Digimon gets +4000 DP until the end of your opponent's next turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Tai Kamiya",
+        "number": "ST5-14",
+        "rarity": "R",
+        "color": "black",
+        "level": "-",
+        "printings": [
+            {
+                "name": "ST5-14",
+                "set": "ST-6",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/ST5-14.png"
+            }
+        ],
+        "cardType": "Tamer",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "2",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Opponent's Turn] When you use  to suspend one of your Digimon, you may suspend this Tamer to unsuspend 1 of your Digimon.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Play this card without paying its memory cost.",
+        "notes": ""
+    },
+    {
+        "name": "Laser Eye",
+        "number": "ST5-15",
+        "rarity": "C",
+        "color": "black",
+        "level": "-",
+        "printings": [
+            {
+                "name": "ST5-15",
+                "set": "ST-6",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/ST5-15.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "4",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] Trigger  on up to 2 of your opponent's Digimon. (Trash a card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards.)",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Activate this card's [Main] effect.",
+        "notes": ""
+    },
+    {
+        "name": "Dark Side Attack",
+        "number": "ST5-16",
+        "rarity": "U",
+        "color": "black",
+        "level": "-",
+        "printings": [
+            {
+                "name": "ST5-16",
+                "set": "ST-6",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/ST5-16.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "5",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] Delete 1 of your opponent's Digimon with a play cost of 7 or less.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Activate this card's [Main] effect.",
+        "notes": ""
+    }
+]

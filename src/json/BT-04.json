@@ -1,0 +1,3097 @@
+[
+    {
+        "name": "Sakuttomon",
+        "number": "BT4-001",
+        "rarity": "U",
+        "color": "red",
+        "level": "Lv.2",
+        "printings": [
+            {
+                "name": "BT4-001",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-001.png"
+            }
+        ],
+        "cardType": "Digi-Egg",
+        "form": "In-Training",
+        "attribute": "-",
+        "type": "Weapon",
+        "dp": "-",
+        "cost": "ー",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[When Attacking][Once Per Turn] If this Digimon is level 7, gain 1 memory.",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Bukamon",
+        "number": "BT4-002",
+        "rarity": "U",
+        "color": "blue",
+        "level": "Lv.2",
+        "printings": [
+            {
+                "name": "BT4-002",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-002.png"
+            }
+        ],
+        "cardType": "Digi-Egg",
+        "form": "In-Training",
+        "attribute": "-",
+        "type": "Lesser",
+        "dp": "-",
+        "cost": "ー",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[When Attacking] Trash the bottom digivolution card of 1 of your opponent's level 4 or lower Digimon.",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Koromon",
+        "number": "BT4-003",
+        "rarity": "U",
+        "color": "yellow",
+        "level": "Lv.2",
+        "printings": [
+            {
+                "name": "BT4-003",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-003.png"
+            }
+        ],
+        "cardType": "Digi-Egg",
+        "form": "In-Training",
+        "attribute": "-",
+        "type": "Lesser",
+        "dp": "-",
+        "cost": "ー",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[When Attacking][Once Per Turn] If you have 3 or fewer security cards, 1 of your opponent's Digimon gets -1000 DP for the turn.",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Budmon",
+        "number": "BT4-004",
+        "rarity": "U",
+        "color": "green",
+        "level": "Lv.2",
+        "printings": [
+            {
+                "name": "BT4-004",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-004.png"
+            }
+        ],
+        "cardType": "Digi-Egg",
+        "form": "In-Training",
+        "attribute": "-",
+        "type": "Vegetation",
+        "dp": "-",
+        "cost": "ー",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn] While this Digimon has , it gets +1000 DP.",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Missimon",
+        "number": "BT4-005",
+        "rarity": "U",
+        "color": "black",
+        "level": "Lv.2",
+        "printings": [
+            {
+                "name": "BT4-005",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-005.png"
+            }
+        ],
+        "cardType": "Digi-Egg",
+        "form": "In-Training",
+        "attribute": "-",
+        "type": "Machine",
+        "dp": "-",
+        "cost": "ー",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn] While this Digimon has [D-Brigade] in its type, it gets +1000 DP.",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Xiaomon",
+        "number": "BT4-006",
+        "rarity": "U",
+        "color": "purple",
+        "level": "Lv.2",
+        "printings": [
+            {
+                "name": "BT4-006",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-006.png"
+            }
+        ],
+        "cardType": "Digi-Egg",
+        "form": "In-Training",
+        "attribute": "-",
+        "type": "Lesser",
+        "dp": "-",
+        "cost": "ー",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn] While there are 10 or more cards in your trash, this Digimon gains . (When this Digimon is deleted after losing a battle, delete the Digimon it was battling.)",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Otamamon",
+        "number": "BT4-007",
+        "rarity": "C",
+        "color": "red",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "BT4-007",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-007.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Data",
+        "type": "Amphibian",
+        "dp": "5000",
+        "cost": "2",
+        "digivolveCost1": "2 from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Agumon",
+        "number": "BT4-008",
+        "rarity": "C",
+        "color": "red",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "BT4-008",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-008.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "type": "Dinosaur",
+        "dp": "2000",
+        "cost": "3",
+        "digivolveCost1": "0 from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn] When this card is trashed due to activating this Digimon's , return this card to its owner's hand.",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Flamemon",
+        "number": "BT4-009",
+        "rarity": "C",
+        "color": "red",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "BT4-009",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-009.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Hybrid",
+        "attribute": "Variable",
+        "type": "Wizard",
+        "dp": "2000",
+        "cost": "3",
+        "digivolveCost1": "0 from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card with [Hybrid] in its form and/or 1 red Tamer card among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Fugamon",
+        "number": "BT4-010",
+        "rarity": "C",
+        "color": "red",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-010",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-010.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Virus",
+        "type": "Demon",
+        "dp": "3000",
+        "cost": "3",
+        "digivolveCost1": "1 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Agunimon",
+        "number": "BT4-011",
+        "rarity": "U",
+        "color": "red",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-011",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-011.png"
+            },
+            {
+                "name": "BT4-011_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-011_P1.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Hybrid",
+        "attribute": "Variable",
+        "type": "Wizard",
+        "dp": "5000",
+        "cost": "5",
+        "digivolveCost1": "2 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "You may Digivolve this card from your hand onto one of your red Tamers as if the Tamer is a level 3 Digimon.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "GeoGreymon",
+        "number": "BT4-012",
+        "rarity": "C",
+        "color": "red",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-012",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-012.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Dinosaur",
+        "dp": "5000",
+        "cost": "5",
+        "digivolveCost1": "2 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "[Main]  (Trash 2 of this Digimon's digivolution cards to activate the effect below.)・Delete 1 of your opponent's Digimon with 4000 DP or less.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "BurningGreymon",
+        "number": "BT4-013",
+        "rarity": "U",
+        "color": "red",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-013",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-013.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Hybrid",
+        "attribute": "Variable",
+        "type": "Dark Dragon",
+        "dp": "6000",
+        "cost": "6",
+        "digivolveCost1": "3 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "You may Digivolve this card from your hand onto one of your red Tamers as if the Tamer is a level 3 Digimon.[Your Turn] This Digimon gets +3000 DP.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Vermilimon",
+        "number": "BT4-014",
+        "rarity": "C",
+        "color": "red",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-014",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-014.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Data",
+        "type": "Ankylosaur",
+        "dp": "8000",
+        "cost": "5",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Volcdramon",
+        "number": "BT4-015",
+        "rarity": "C",
+        "color": "red",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-015",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-015.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Data",
+        "type": "Dragon",
+        "dp": "7000",
+        "cost": "7",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "(This Digimon checks 1 additional security card.)",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Aldamon",
+        "number": "BT4-016",
+        "rarity": "SR",
+        "color": "red",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-016",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-016.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Hybrid",
+        "attribute": "Variable",
+        "type": "Wizard",
+        "dp": "7000",
+        "cost": "8",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "(This Digimon checks 1 additional security card.)[Your Turn] While this Digimon's digivolution cards include a Digimon card with [Hybrid] in its form or a red Tamer card, it gets +4000 DP.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "RizeGreymon",
+        "number": "BT4-017",
+        "rarity": "SR",
+        "color": "red",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-017",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-017.png"
+            },
+            {
+                "name": "BT4-017_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-017_P1.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Vaccine",
+        "type": "Cyborg",
+        "dp": "7000",
+        "cost": "8",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "3 from Lv.4",
+        "effect": "[Your Turn] This Digimon is also treated as yellow.[Main]  (Trash 2 of this Digimon's digivolution cards to activate the effect below.)・You may play a red or yellow Tamer card with a play cost of 4 or less from your hand without paying its memory cost.",
+        "digivolveEffect": "[When Attacking] If you have a Tamer in play, 1 of your opponent's Digimon gets -2000 DP for the turn.",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Spinomon",
+        "number": "BT4-018",
+        "rarity": "U",
+        "color": "red",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "BT4-018",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-018.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Virus",
+        "type": "Dinosaur",
+        "dp": "10000",
+        "cost": "10",
+        "digivolveCost1": "2 from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "[Your Turn] This Digimon gets +3000 DP.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "VictoryGreymon",
+        "number": "BT4-019",
+        "rarity": "R",
+        "color": "red",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "BT4-019",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-019.png"
+            },
+            {
+                "name": "BT4-019_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-019_P1.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "type": "Dragonkin",
+        "dp": "12000",
+        "cost": "11",
+        "digivolveCost1": "4 from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "[When Digivolving]  (Trash 2 of this Digimon's digivolution cards to activate the effect below.)・Delete 1 of your opponent's Digimon with 8000 DP or less.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "ShineGreymon",
+        "number": "BT4-020",
+        "rarity": "R",
+        "color": "red",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "BT4-020",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-020.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "type": "Light Dragon",
+        "dp": "11000",
+        "cost": "12",
+        "digivolveCost1": "3 from Lv.5",
+        "digivolveCost2": "3 from Lv.5",
+        "effect": "[Your Turn] When one of your red or yellow Tamers is suspended, this Digimon gains  (This Digimon checks 1 additional security card) for the turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Gaomon",
+        "number": "BT4-021",
+        "rarity": "C",
+        "color": "blue",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "BT4-021",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-021.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Data",
+        "type": "Beast",
+        "dp": "2000",
+        "cost": "3",
+        "digivolveCost1": "0 from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn] When this card is trashed due to activating this Digimon's , return this card to its owner's hand.",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Sangomon",
+        "number": "BT4-022",
+        "rarity": "C",
+        "color": "blue",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "BT4-022",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-022.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Data",
+        "type": "Mollusk",
+        "dp": "4000",
+        "cost": "3",
+        "digivolveCost1": "0 from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Strabimon",
+        "number": "BT4-023",
+        "rarity": "C",
+        "color": "blue",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "BT4-023",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-023.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Hybrid",
+        "attribute": "Variable",
+        "type": "Beastkin",
+        "dp": "2000",
+        "cost": "3",
+        "digivolveCost1": "0 from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card with [Hybrid] in its form and/or 1 blue Tamer card among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Tobiumon",
+        "number": "BT4-024",
+        "rarity": "C",
+        "color": "blue",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-024",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-024.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Sea Animal",
+        "dp": "3000",
+        "cost": "3",
+        "digivolveCost1": "1 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Lobomon",
+        "number": "BT4-025",
+        "rarity": "U",
+        "color": "blue",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-025",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-025.png"
+            },
+            {
+                "name": "BT4-025_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-025_P1.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Hybrid",
+        "attribute": "Variable",
+        "type": "Warrior",
+        "dp": "5000",
+        "cost": "5",
+        "digivolveCost1": "2 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "You may Digivolve this card from your hand onto one of your blue Tamers as if the Tamer is a level 3 Digimon.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "GaoGamon",
+        "number": "BT4-026",
+        "rarity": "C",
+        "color": "blue",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-026",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-026.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Data",
+        "type": "Beast",
+        "dp": "5000",
+        "cost": "5",
+        "digivolveCost1": "2 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "[Main]  (Trash 2 of this Digimon's digivolution cards to activate the effect below.)・ (Draw 1 card from your deck.)",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "KendoGarurumon",
+        "number": "BT4-027",
+        "rarity": "U",
+        "color": "blue",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-027",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-027.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Hybrid",
+        "attribute": "Variable",
+        "type": "Cyborg",
+        "dp": "6000",
+        "cost": "6",
+        "digivolveCost1": "3 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "You may Digivolve this card from your hand onto one of your blue Tamers as if the Tamer is a level 3 Digimon.[When Attacking] Return 1 of your opponent's level 3 Digimon to its owner's hand. Trash all of the digivolution cards of that Digimon.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Piranimon",
+        "number": "BT4-028",
+        "rarity": "U",
+        "color": "blue",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-028",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-028.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Virus",
+        "type": "Sea Animal",
+        "dp": "7000",
+        "cost": "6",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[When Attacking] Trash the top digivolution card of 1 of your opponent's Digimon.",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Gusokumon",
+        "number": "BT4-029",
+        "rarity": "C",
+        "color": "blue",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-029",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-029.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Vaccine",
+        "type": "Crustacean",
+        "dp": "10000",
+        "cost": "7",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Beowolfmon",
+        "number": "BT4-030",
+        "rarity": "SR",
+        "color": "blue",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-030",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-030.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Hybrid",
+        "attribute": "Variable",
+        "type": "Warrior",
+        "dp": "7000",
+        "cost": "7",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "(This Digimon can't be deleted in battles against Security Digimon.)[Opponent's Turn] While this Digimon's digivolution cards include a Digimon card with [Hybrid] in its form or a blue Tamer card, it can't be attacked.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "MarinChimairamon",
+        "number": "BT4-031",
+        "rarity": "R",
+        "color": "blue",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-031",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-031.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Vaccine",
+        "type": "Composite",
+        "dp": "7000",
+        "cost": "7",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "[On Play] You may return 1 of your other Digimon to its owner's hand to return 1 of your opponent's Digimon with no digivolution cards to its owner's hand. Trash all of the digivolution cards of your Digimon.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "MachGaogamon",
+        "number": "BT4-032",
+        "rarity": "R",
+        "color": "blue",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-032",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-032.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Data",
+        "type": "Cyborg",
+        "dp": "7000",
+        "cost": "8",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "[Main]  (Trash 2 of this Digimon's digivolution cards to activate the effect below.)・Return 1 of your opponent's level 4 or lower Digimon to its owner's hand. Trash all of the digivolution cards of that Digimon.",
+        "digivolveEffect": "[Your Turn] While you have a Tamer in play, this Digimon gets +2000 DP.",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "ZeedGarurumon",
+        "number": "BT4-033",
+        "rarity": "R",
+        "color": "blue",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "BT4-033",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-033.png"
+            },
+            {
+                "name": "BT4-033_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-033_P1.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Data",
+        "type": "Cyborg",
+        "dp": "12000",
+        "cost": "11",
+        "digivolveCost1": "4 from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "[When Digivolving]  (Trash 2 of this Digimon's digivolution cards to activate the effect below.)・Return 1 of your opponent's level 5 or lower Digimon to its owner's hand. Trash all of the digivolution cards of that Digimon.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Regalecusmon",
+        "number": "BT4-034",
+        "rarity": "C",
+        "color": "blue",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "BT4-034",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-034.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Virus",
+        "type": "Sea Animal",
+        "dp": "11000",
+        "cost": "11",
+        "digivolveCost1": "3 from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "[When Attacking] Trash the bottom digivolution card of 1 of your opponent's Digimon. When you do, trigger  (Draw 1 card from your deck) and gain 1 memory.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "MirageGaogamon",
+        "number": "BT4-035",
+        "rarity": "SR",
+        "color": "blue",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "BT4-035",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-035.png"
+            },
+            {
+                "name": "BT4-035_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-035_P1.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Data",
+        "type": "Beast Knight",
+        "dp": "12000",
+        "cost": "12",
+        "digivolveCost1": "4 from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "[When Digivolving] Gain 1 memory for every 4 cards in your opponent's hand.[Your Turn] This Digimon is unblockable.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Falcomon",
+        "number": "BT4-036",
+        "rarity": "C",
+        "color": "yellow",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "BT4-036",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-036.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "type": "Avian",
+        "dp": "5000",
+        "cost": "2",
+        "digivolveCost1": "2 from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Kudamon",
+        "number": "BT4-037",
+        "rarity": "C",
+        "color": "yellow",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "BT4-037",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-037.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "type": "Holy Beast",
+        "dp": "2000",
+        "cost": "3",
+        "digivolveCost1": "0 from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "[On Play] You may trash the top card of your security stack to have 1 of your opponent's Digimon get -2000 DP.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "BushiAgumon",
+        "number": "BT4-038",
+        "rarity": "U",
+        "color": "yellow",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "BT4-038",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-038.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "type": "Dinosaur",
+        "dp": "3000",
+        "cost": "5",
+        "digivolveCost1": "0 from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "(This Digimon can attack the turn it comes into play.)",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Growlmon",
+        "number": "BT4-039",
+        "rarity": "C",
+        "color": "yellow",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-039",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-039.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Data",
+        "type": "Dark Dragon",
+        "dp": "4000",
+        "cost": "4",
+        "digivolveCost1": "2 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn] While you have 3 or fewer security cards, this Digimon gets +1000 DP.",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Diatrymon",
+        "number": "BT4-040",
+        "rarity": "C",
+        "color": "yellow",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-040",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-040.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Ancient Bird",
+        "dp": "6000",
+        "cost": "5",
+        "digivolveCost1": "2 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Meicoomon",
+        "number": "BT4-041",
+        "rarity": "C",
+        "color": "yellow",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-041",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-041.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Unidentified",
+        "type": "Unidentified",
+        "dp": "4000",
+        "cost": "5",
+        "digivolveCost1": "2 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "[On Play] If you have 3 or fewer security cards, 1 of your opponent's Digimon gets -4000 DP for the turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Piddomon",
+        "number": "BT4-042",
+        "rarity": "C",
+        "color": "yellow",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-042",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-042.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Angel",
+        "dp": "5000",
+        "cost": "6",
+        "digivolveCost1": "1 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "(When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)[When Attacking] Lose 2 memory.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Crowmon",
+        "number": "BT4-043",
+        "rarity": "U",
+        "color": "yellow",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-043",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-043.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Vaccine",
+        "type": "Mysterious Bird",
+        "dp": "8000",
+        "cost": "5",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "HippoGryphonmon",
+        "number": "BT4-044",
+        "rarity": "C",
+        "color": "yellow",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-044",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-044.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Data",
+        "type": "Mythical Beast",
+        "dp": "6000",
+        "cost": "6",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "[When Attacking] If you have 3 or fewer security cards, 1 of your opponent's Digimon gets -3000 DP for the turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Maycrackmon",
+        "number": "BT4-045",
+        "rarity": "C",
+        "color": "yellow",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-045",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-045.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Vaccine",
+        "type": "Beastkin",
+        "dp": "7000",
+        "cost": "7",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "[Opponent's Turn] While you have 3 or fewer security cards, all of your Security Digimon get +4000 DP.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "WarGrowlmon",
+        "number": "BT4-046",
+        "rarity": "R",
+        "color": "yellow",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-046",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-046.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Data",
+        "type": "Cyborg",
+        "dp": "7000",
+        "cost": "8",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "[Main]  (Trash 2 of this Digimon's digivolution cards to activate the effect below.)・1 of your opponent's Digimon gets -4000 DP for the turn.",
+        "digivolveEffect": "[Your Turn] While you have 3 or fewer security cards, this Digimon gets +1000 DP.",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Rasielmon",
+        "number": "BT4-047",
+        "rarity": "U",
+        "color": "yellow",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "BT4-047",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-047.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "type": "Throne",
+        "dp": "10000",
+        "cost": "10",
+        "digivolveCost1": "4 from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "[When Digivolving] Trigger . (Place the top 2 cards of your deck on top of your security stack.)[At End of Opponent's Turn] Trash the top card of your security stack.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "WarGreymon",
+        "number": "BT4-048",
+        "rarity": "SR",
+        "color": "yellow",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "BT4-048",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-048.png"
+            },
+            {
+                "name": "BT4-048_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-048_P1.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "type": "Dragonkin",
+        "dp": "11000",
+        "cost": "12",
+        "digivolveCost1": "3 from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "[When Attacking][Once Per Turn] You may add the top card of your security stack to your hand to unsuspend this Digimon and have 1 of your opponent's Digimon get -6000 DP for the turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Varodurumon",
+        "number": "BT4-049",
+        "rarity": "R",
+        "color": "yellow",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "BT4-049",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-049.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "type": "Holy Bird",
+        "dp": "11000",
+        "cost": "13",
+        "digivolveCost1": "3 from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "[Main]  (Trash 3 of this Digimon's digivolution cards to activate the effect below.)・All of your opponent's Digimon get -4000 DP for the turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Liollmon",
+        "number": "BT4-050",
+        "rarity": "C",
+        "color": "green",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "BT4-050",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-050.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "type": "Holy Beast",
+        "dp": "5000",
+        "cost": "2",
+        "digivolveCost1": "2 from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "DoKunemon",
+        "number": "BT4-051",
+        "rarity": "C",
+        "color": "green",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "BT4-051",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-051.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Virus",
+        "type": "Larva",
+        "dp": "2000",
+        "cost": "3",
+        "digivolveCost1": "0 from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "[On Play] Reveal the top 3 cards of your deck. Add 1 Digimon card with  among them to your hand. Place the remaining cards at the bottom of your deck in any order.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Lalamon",
+        "number": "BT4-052",
+        "rarity": "U",
+        "color": "green",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "BT4-052",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-052.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Data",
+        "type": "Vegetation",
+        "dp": "2000",
+        "cost": "3",
+        "digivolveCost1": "0 from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn] When this card is trashed due to activating this Digimon's , return this card to its owner's hand.",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Roachmon",
+        "number": "BT4-053",
+        "rarity": "U",
+        "color": "green",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-053",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-053.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Virus",
+        "type": "Insectoid",
+        "dp": "3000",
+        "cost": "3",
+        "digivolveCost1": "1 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Sunflowmon",
+        "number": "BT4-054",
+        "rarity": "U",
+        "color": "green",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-054",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-054.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Data",
+        "type": "Vegetation",
+        "dp": "5000",
+        "cost": "5",
+        "digivolveCost1": "2 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "[Main]  (Trash 2 of this Digimon's digivolution cards to activate the effect below.)・1 of your opponent's suspended Digimon doesn't unsuspend during your opponent's next unsuspend phase.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Leomon",
+        "number": "BT4-055",
+        "rarity": "C",
+        "color": "green",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-055",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-055.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Beastkin",
+        "dp": "5000",
+        "cost": "5",
+        "digivolveCost1": "2 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "[When Digivolving] Suspend 1 of your opponent's Digimon with 3000 DP or less.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "SkullScorpiomon",
+        "number": "BT4-056",
+        "rarity": "C",
+        "color": "green",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-056",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-056.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Data",
+        "type": "Insectoid",
+        "dp": "6000",
+        "cost": "5",
+        "digivolveCost1": "2 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "GrapLeomon",
+        "number": "BT4-057",
+        "rarity": "C",
+        "color": "green",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-057",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-057.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Vaccine",
+        "type": "Beastkin",
+        "dp": "6000",
+        "cost": "7",
+        "digivolveCost1": "2 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "[When Attacking] Gain 1 memory.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Orochimon",
+        "number": "BT4-058",
+        "rarity": "R",
+        "color": "green",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-058",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-058.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Virus",
+        "type": "Dark Dragon",
+        "dp": "8000",
+        "cost": "8",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "[When Digivolving] 1 of your Digimon gains  for the turn. (When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would.)",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Lilamon",
+        "number": "BT4-059",
+        "rarity": "SR",
+        "color": "green",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-059",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-059.png"
+            },
+            {
+                "name": "BT4-059_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-059_P1.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Data",
+        "type": "Fairy",
+        "dp": "7000",
+        "cost": "8",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "[Main]  (Trash 2 of this Digimon's digivolution cards to activate the effect below.)・Suspend 1 of your opponent's Digimon.",
+        "digivolveEffect": "[When Attacking] If you have a Tamer in play, suspend 1 of your opponent's Digimon.",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Lotosmon",
+        "number": "BT4-060",
+        "rarity": "U",
+        "color": "green",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "BT4-060",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-060.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Data",
+        "type": "Fairy",
+        "dp": "12000",
+        "cost": "11",
+        "digivolveCost1": "4 from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "[All Turns] When you or your opponent play a level 4 or lower Digimon, suspend it.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "BanchoLeomon",
+        "number": "BT4-061",
+        "rarity": "R",
+        "color": "green",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "BT4-061",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-061.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "type": "Beastkin/Boss",
+        "dp": "11000",
+        "cost": "12",
+        "digivolveCost1": "3 from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "[On Deletion] Suspend up to 2 of your opponent's Digimon.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Nidhoggmon",
+        "number": "BT4-062",
+        "rarity": "SR",
+        "color": "green",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "BT4-062",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-062.png"
+            },
+            {
+                "name": "BT4-062_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-062_P1.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Virus",
+        "type": "Dark Dragon",
+        "dp": "13000",
+        "cost": "13",
+        "digivolveCost1": "5 from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "[When Digivolving]  (Trash 4 of this Digimon's digivolution cards to activate the effect below.)・Suspend all of your opponent's Digimon with 5000 DP or less. Then, place all of your opponent's suspended Digimon at the bottom of their owners' decks in any order. Trash all of the digivolution cards of those Digimon.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Commandramon",
+        "number": "BT4-063",
+        "rarity": "R",
+        "color": "black",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "BT4-063",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-063.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Virus",
+        "type": "Cyborg/D-Brigade",
+        "dp": "1000",
+        "cost": "3",
+        "digivolveCost1": "0 from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "[On Deletion] Reveal the top 3 cards of your deck. You may play 1 [Commandramon] among them without paying its memory cost. Place the remaining cards at the bottom of your deck in any order.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Sunarizamon",
+        "number": "BT4-064",
+        "rarity": "U",
+        "color": "black",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "BT4-064",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-064.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Virus",
+        "type": "Reptile",
+        "dp": "2000",
+        "cost": "3",
+        "digivolveCost1": "0 from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn] When this card is trashed due to activating this Digimon's , return this card to its owner's hand.",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Gotsumon",
+        "number": "BT4-065",
+        "rarity": "C",
+        "color": "black",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "BT4-065",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-065.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Data",
+        "type": "Rock",
+        "dp": "6000",
+        "cost": "4",
+        "digivolveCost1": "1 from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Golemon",
+        "number": "BT4-066",
+        "rarity": "C",
+        "color": "black",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-066",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-066.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Virus",
+        "type": "Mineral",
+        "dp": "3000",
+        "cost": "4",
+        "digivolveCost1": "2 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "[All Turns] All of your black Digimon get +1000 DP.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Sealsdramon",
+        "number": "BT4-067",
+        "rarity": "U",
+        "color": "black",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-067",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-067.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Virus",
+        "type": "Cyborg/D-Brigade",
+        "dp": "6000",
+        "cost": "5",
+        "digivolveCost1": "2 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "(When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)[When Attacking] Lose 2 memory.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Baboongamon",
+        "number": "BT4-068",
+        "rarity": "U",
+        "color": "black",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-068",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-068.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Beast",
+        "dp": "4000",
+        "cost": "5",
+        "digivolveCost1": "2 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "[Main]  (Trash 2 of this Digimon's digivolution cards to activate the effect below.)・Trigger  on 1 of your opponent's Digimon with a play cost of 7 or less. (Trash 1 card from the top of one of your opponent's Digimon. If it has no digivolution cards, or becomes a level 3 Digimon, you can't trash any more cards.)",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Blimpmon",
+        "number": "BT4-069",
+        "rarity": "C",
+        "color": "black",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-069",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-069.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Data",
+        "type": "Machine",
+        "dp": "7000",
+        "cost": "6",
+        "digivolveCost1": "2 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Meteormon",
+        "number": "BT4-070",
+        "rarity": "C",
+        "color": "black",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-070",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-070.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Data",
+        "type": "Rock",
+        "dp": "8000",
+        "cost": "7",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "(Unsuspend this Digimon during your opponent's unsuspend phase.)",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Tankdramon",
+        "number": "BT4-071",
+        "rarity": "C",
+        "color": "black",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-071",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-071.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Virus",
+        "type": "Machine/D-Brigade",
+        "dp": "7000",
+        "cost": "7",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "[Your Turn] When one of your other Digimon with [D-Brigade] in its type is deleted, reveal the top 2 cards of your deck. You may play 1 [Commandramon] among them without paying its memory cost. Place the remaining cards at the bottom of your deck in any order.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Gogmamon",
+        "number": "BT4-072",
+        "rarity": "SR",
+        "color": "black",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-072",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-072.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Vaccine",
+        "type": "Rock",
+        "dp": "7000",
+        "cost": "8",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "[Main]  (Trash 1 of this Digimon's digivolution cards to activate the effect below.)・1 of your Digimon gets +2000 DP until the end of your opponent's next turn.",
+        "digivolveEffect": "[All Turns] This Digimon gets +1000 DP.",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "BanchoGolemon",
+        "number": "BT4-073",
+        "rarity": "U",
+        "color": "black",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "BT4-073",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-073.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Virus",
+        "type": "Mineral/Boss",
+        "dp": "11000",
+        "cost": "11",
+        "digivolveCost1": "3 from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "(When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead.)[Opponent's Turn] While your opponent has 3 or more Digimon in play, this Digimon gets +3000 DP.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Darkdramon",
+        "number": "BT4-074",
+        "rarity": "R",
+        "color": "black",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "BT4-074",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-074.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Virus",
+        "type": "Cyborg/D-Brigade",
+        "dp": "11000",
+        "cost": "13",
+        "digivolveCost1": "3 from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "(This Digimon can attack the turn it comes into play.)[On Play] Return up to 5 Digimon cards with [D-Brigade] in their types from your trash to the top of your deck in any order, and for each card you return this way, gain 2 memory.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Blastmon",
+        "number": "BT4-075",
+        "rarity": "SR",
+        "color": "black",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "BT4-075",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-075.png"
+            },
+            {
+                "name": "BT4-075_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-075_P1.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "type": "Mineral",
+        "dp": "13000",
+        "cost": "13",
+        "digivolveCost1": "3 from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "(This Digimon checks 1 additional security card.)[When Attacking] Your opponent may choose 1 of their unsuspended Digimon. If they do, switch the target of attack to that Digimon.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Gabumon",
+        "number": "BT4-076",
+        "rarity": "C",
+        "color": "purple",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "BT4-076",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-076.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Virus",
+        "type": "Reptile",
+        "dp": "4000",
+        "cost": "3",
+        "digivolveCost1": "0 from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Ghostmon",
+        "number": "BT4-077",
+        "rarity": "R",
+        "color": "purple",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "BT4-077",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-077.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Data",
+        "type": "Ghost",
+        "dp": "2000",
+        "cost": "3",
+        "digivolveCost1": "0 from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "[Your Turn] When this card is trashed due to activating this Digimon's , return this card to its owner's hand.",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Soundbirdmon",
+        "number": "BT4-078",
+        "rarity": "U",
+        "color": "purple",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "BT4-078",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-078.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Virus",
+        "type": "Avian",
+        "dp": "1000",
+        "cost": "3",
+        "digivolveCost1": "0 from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "[When Attacking] You may trash 1 Option card in your hand to gain 1 memory.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Labramon",
+        "number": "BT4-079",
+        "rarity": "C",
+        "color": "purple",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "BT4-079",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-079.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "type": "Beast",
+        "dp": "2000",
+        "cost": "3",
+        "digivolveCost1": "0 from Lv.2",
+        "digivolveCost2": "-",
+        "effect": "[On Play] Trigger . (Draw 1 card from your deck.) Then, trash 1 card in your hand.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Bakemon",
+        "number": "BT4-080",
+        "rarity": "U",
+        "color": "purple",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-080",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-080.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Virus",
+        "type": "Ghost",
+        "dp": "6000",
+        "cost": "5",
+        "digivolveCost1": "2 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Devimon",
+        "number": "BT4-081",
+        "rarity": "C",
+        "color": "purple",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-081",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-081.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Virus",
+        "type": "Fallen Angel",
+        "dp": "5000",
+        "cost": "6",
+        "digivolveCost1": "2 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "[Main]  (Trash 2 of this Digimon's digivolution cards to activate the effect below.)・Delete 1 of your opponent's level 3 Digimon.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Dobermon",
+        "number": "BT4-082",
+        "rarity": "U",
+        "color": "purple",
+        "level": "Lv.4",
+        "printings": [
+            {
+                "name": "BT4-082",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-082.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Champion",
+        "attribute": "Vaccine",
+        "type": "Dark Animal",
+        "dp": "7000",
+        "cost": "6",
+        "digivolveCost1": "2 from Lv.3",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Cerberusmon",
+        "number": "BT4-083",
+        "rarity": "C",
+        "color": "purple",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-083",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-083.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Vaccine",
+        "type": "Dark Animal",
+        "dp": "6000",
+        "cost": "6",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "[On Deletion] Trigger . (Draw 2 cards from your deck.) Then, trash 1 card in your hand.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "NeoDevimon",
+        "number": "BT4-084",
+        "rarity": "C",
+        "color": "purple",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-084",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-084.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Virus",
+        "type": "Fallen Angel",
+        "dp": "7000",
+        "cost": "7",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "[Opponent's Turn] When an opponent plays a Tamer, gain 3 memory.",
+        "digivolveEffect": "[Opponent's Turn] When an opponent's Tamer becomes suspended, gain 1 memory.",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Phantomon",
+        "number": "BT4-085",
+        "rarity": "C",
+        "color": "purple",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-085",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-085.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Virus",
+        "type": "Ghost",
+        "dp": "10000",
+        "cost": "7",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "-",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Cerberusmon: Werewolf Mode",
+        "number": "BT4-086",
+        "rarity": "R",
+        "color": "purple",
+        "level": "Lv.5",
+        "printings": [
+            {
+                "name": "BT4-086",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-086.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Ultimate",
+        "attribute": "Vaccine",
+        "type": "Wizard",
+        "dp": "9000",
+        "cost": "9",
+        "digivolveCost1": "3 from Lv.4",
+        "digivolveCost2": "-",
+        "effect": "(This Digimon can attack the turn it comes into play.)[On Play] You may delete 1 of your [Cerberusmon] to gain 9 memory.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Anubismon",
+        "number": "BT4-087",
+        "rarity": "U",
+        "color": "purple",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "BT4-087",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-087.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "type": "Shaman",
+        "dp": "10000",
+        "cost": "11",
+        "digivolveCost1": "3 from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "[When Digivolving] You may play 1 level 3 Digimon card from your trash without paying its memory cost.[Your Turn] When you play a Digimon from your trash, that Digimon gains  for the turn. (This Digimon can attack the turn it comes into play.)",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "DanDevimon",
+        "number": "BT4-088",
+        "rarity": "SR",
+        "color": "purple",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "BT4-088",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-088.png"
+            },
+            {
+                "name": "BT4-088_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-088_P1.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Virus",
+        "type": "Fallen Angel",
+        "dp": "12000",
+        "cost": "12",
+        "digivolveCost1": "4 from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "[Opponent's Turn][Once Per Turn] When a card is removed from your security stack, trash the top card of your opponent's security stack.[On Deletion] Your opponent trashes 2 cards in their hand.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Plutomon",
+        "number": "BT4-089",
+        "rarity": "SR",
+        "color": "purple",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "BT4-089",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-089.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Virus",
+        "type": "Shaman",
+        "dp": "12000",
+        "cost": "13",
+        "digivolveCost1": "4 from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "[When Digivolving] Trigger . (Draw 2 cards from your deck.) Then, you may use a purple Option card with a memory cost of 6 or less in your hand without paying its memory cost.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Chaosmon",
+        "number": "BT4-090",
+        "rarity": "R",
+        "color": "white",
+        "level": "Lv.7",
+        "printings": [
+            {
+                "name": "BT4-090",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-090.png"
+            },
+            {
+                "name": "BT4-090_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-090_P1.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "type": "Unique",
+        "dp": "14000",
+        "cost": "15",
+        "digivolveCost1": "6 from Lv.6",
+        "digivolveCost2": "6 from Lv.6",
+        "effect": "(When this Digimon attacks and deletes an opponent's Digimon and survives the battle, it performs any security checks it normally would.)[When Digivolving] Unsuspend this Digimon. Then, it can attack your opponent's Digimon. This effect allows you to attack unsuspended Digimon as well.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Chaosmon: Valdur Arm",
+        "number": "BT4-091",
+        "rarity": "SR",
+        "color": "white",
+        "level": "Lv.7",
+        "printings": [
+            {
+                "name": "BT4-091",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-091.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "type": "Unique",
+        "dp": "14000",
+        "cost": "15",
+        "digivolveCost1": "6 from Lv.6",
+        "digivolveCost2": "6 from Lv.6",
+        "effect": "[When Digivolving] Activate the following effect twice.・1 of your opponent's Digimon gets -7000 DP for the turn.[On Deletion] Gain 3 memory.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Marcus Damon",
+        "number": "BT4-092",
+        "rarity": "R",
+        "color": "red",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-092",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-092.png"
+            },
+            {
+                "name": "BT4-092_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-092_P1.png"
+            }
+        ],
+        "cardType": "Tamer",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "4",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Start of Your Turn] If you have 2 memory or less, set your memory to 3.[Your Turn] When one of your Digimon with [Greymon] in its name attacks, you may suspend this Tamer to gain 1 memory.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Play this card without paying its memory cost.",
+        "notes": ""
+    },
+    {
+        "name": "Thomas H. Norstein",
+        "number": "BT4-093",
+        "rarity": "R",
+        "color": "blue",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-093",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-093.png"
+            },
+            {
+                "name": "BT4-093_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-093_P1.png"
+            }
+        ],
+        "cardType": "Tamer",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "3",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[On Play] Trigger . (Draw 1 card from your deck.)[Main] If your opponent has 8 or more cards in their hand, you may suspend this Tamer to unsuspend 1 of your Digimon with [Gao] in its name.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Play this card without paying its memory cost.",
+        "notes": ""
+    },
+    {
+        "name": "Tai Kamiya",
+        "number": "BT4-094",
+        "rarity": "R",
+        "color": "yellow",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-094",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-094.png"
+            },
+            {
+                "name": "BT4-094_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-094_P1.png"
+            }
+        ],
+        "cardType": "Tamer",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "3",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Your Turn] While you have 3 or fewer security cards, all of your Digimon get +1000 DP.[Your Turn] When an opponent's Digimon is deleted by dropping to 0 DP, you may suspend this Tamer to gain 1 memory.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Play this card without paying its memory cost.",
+        "notes": ""
+    },
+    {
+        "name": "Yoshino Fujieda",
+        "number": "BT4-095",
+        "rarity": "R",
+        "color": "green",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-095",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-095.png"
+            },
+            {
+                "name": "BT4-095_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-095_P1.png"
+            }
+        ],
+        "cardType": "Tamer",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "3",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[On Play] Return 1 Digi-Egg card from your trash to the bottom of your Digi-Egg deck.[Your Turn] When digivolving one of your Digimon into a Digimon card in your hand with , you may suspend this Tamer to reduce the digivolution cost by 1.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Play this card without paying its memory cost.",
+        "notes": ""
+    },
+    {
+        "name": "Izzy Izumi",
+        "number": "BT4-096",
+        "rarity": "R",
+        "color": "black",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-096",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-096.png"
+            },
+            {
+                "name": "BT4-096_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-096_P1.png"
+            }
+        ],
+        "cardType": "Tamer",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "4",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Start of Your Turn] If you have 2 memory or less, set your memory to 3.[On Play] Reveal the top 3 cards of your deck. If all of the revealed cards are black, gain 1 memory. Place the cards on top of your deck in any order.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Play this card without paying its memory cost.",
+        "notes": ""
+    },
+    {
+        "name": "Kari Kamiya",
+        "number": "BT4-097",
+        "rarity": "R",
+        "color": "purple",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-097",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-097.png"
+            },
+            {
+                "name": "BT4-097_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-097_P1.png"
+            }
+        ],
+        "cardType": "Tamer",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "3",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[All Turns] When a card is removed from your security stack, you may suspend this Tamer to gain 1 memory.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Play this card without paying its memory cost.",
+        "notes": ""
+    },
+    {
+        "name": "Atomic Inferno",
+        "number": "BT4-098",
+        "rarity": "C",
+        "color": "red",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-098",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-098.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "1",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] 1 of your Digimon with [Hybrid] in its form gets +3000 DP,  (This Digimon checks 1 additional security card), and \"[Your Turn] When this Digimon is blocked, gain +3 memory\" for the turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] All of your Digimon gain  (This Digimon checks 1 additional security card) until the end of your next turn.",
+        "notes": ""
+    },
+    {
+        "name": "Heir of Dragons",
+        "number": "BT4-099",
+        "rarity": "U",
+        "color": "red",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-099",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-099.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "3",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] Trigger . (Draw 2 cards from your deck.) Then, if one of your Digimon has [Greymon] or [Dramon] in its name, delete 1 of your opponent's Digimon with 4000 DP or less.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Activate this card's [Main] effect.",
+        "notes": ""
+    },
+    {
+        "name": "Trident Revolver",
+        "number": "BT4-100",
+        "rarity": "R",
+        "color": "red",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-100",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-100.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "6",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] Delete 1 of your opponent's Digimon with 6000 DP or less. Then, you may play 1 Tamer card with a play cost of 4 or less from your hand without paying its memory cost.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Activate this card's [Main] effect.",
+        "notes": ""
+    },
+    {
+        "name": "I'll Drag You Into the Depths!",
+        "number": "BT4-101",
+        "rarity": "U",
+        "color": "blue",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-101",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-101.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "1",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] All of your Digimon gain \"[Your Turn] When attacking an opponent's Digimon with no digivolution cards, delete that Digimon\" for the turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Add this card to its owner's hand.",
+        "notes": ""
+    },
+    {
+        "name": "Aqua Viper",
+        "number": "BT4-102",
+        "rarity": "C",
+        "color": "blue",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-102",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-102.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "3",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] Return 1 of your Digimon to its owner's hand to return up to 2 of your opponent's level 4 or lower Digimon to their owners' hands. Trash all of the digivolution cards of those Digimon.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Add this card to its owner's hand.",
+        "notes": ""
+    },
+    {
+        "name": "Full Moon Blaster",
+        "number": "BT4-103",
+        "rarity": "R",
+        "color": "blue",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-103",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-103.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "5",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] Return 1 of your opponent's level 5 or lower Digimon to its owner's hand. If your opponent has 8 or more cards in their hand, instead return 1 of your opponent's level 5 or lower Digimon to the bottom of its owner's deck. Trash all of the digivolution cards of that Digimon.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Activate this card's [Main] effect.",
+        "notes": ""
+    },
+    {
+        "name": "Blinding Ray",
+        "number": "BT4-104",
+        "rarity": "R",
+        "color": "yellow",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-104",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-104.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "-",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] Trash the top card of your security stack. Then, gain 2 memory.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Tactical Retreat!",
+        "number": "BT4-105",
+        "rarity": "U",
+        "color": "yellow",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-105",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-105.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "1",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] Place 1 of your Digimon on top of your security stack face down. Trash all of the digivolution cards of that Digimon.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Trigger . (Place the top card of your deck on top of your security stack.)",
+        "notes": ""
+    },
+    {
+        "name": "Purge Shine",
+        "number": "BT4-106",
+        "rarity": "C",
+        "color": "yellow",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-106",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-106.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "4",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] All of your opponent's Digimon get -3000 DP for the turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Activate this card's [Main] effect.",
+        "notes": ""
+    },
+    {
+        "name": "Pollen Spray",
+        "number": "BT4-107",
+        "rarity": "R",
+        "color": "green",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-107",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-107.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "3",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] Reveal the top 3 cards of your deck. Add all Digimon cards with  among them to your hand. Place the remaining cards at the bottom of your deck in any order. Then, suspend 1 of your opponent's Digimon for each card added to your hand by this effect.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Activate this card's [Main] effect.",
+        "notes": ""
+    },
+    {
+        "name": "Cyclonic Kick",
+        "number": "BT4-108",
+        "rarity": "C",
+        "color": "green",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-108",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-108.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "4",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] Unsuspend 1 of your Digimon and suspend 1 of your opponent's Digimon.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Activate this card's [Main] effect.",
+        "notes": ""
+    },
+    {
+        "name": "Final Zubagon Punch",
+        "number": "BT4-109",
+        "rarity": "C",
+        "color": "black",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-109",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-109.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "2",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] 1 of your Digimon gets +3000 DP until the end of your opponent's next turn. Then, if that Digimon has 16000 DP or more, that Digimon gains  (When an opponent's Digimon attacks, you may suspend this Digimon to force the opponent to attack it instead),  (Unsuspend this Digimon during your opponent's unsuspend phase), and  (This Digimon checks 1 additional security card) until the end of your opponent's next turn.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Add this card to its owner's hand.",
+        "notes": ""
+    },
+    {
+        "name": "Dark Roar",
+        "number": "BT4-110",
+        "rarity": "R",
+        "color": "black",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-110",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-110.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "3",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] Delete 1 of your opponent's Digimon with a play cost of 3 or less. For each of your Digimon with [D-Brigade] in its type, add +1 to the maximum play cost of the Digimon you can choose with this effect.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Activate this card's [Main] effect.",
+        "notes": ""
+    },
+    {
+        "name": "Jack Raid",
+        "number": "BT4-111",
+        "rarity": "C",
+        "color": "purple",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-111",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-111.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "-",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] Gain 1 memory for every 10 cards in your trash.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Gain 2 memory.",
+        "notes": ""
+    },
+    {
+        "name": "Hell’s Gate",
+        "number": "BT4-112",
+        "rarity": "R",
+        "color": "purple",
+        "level": "-",
+        "printings": [
+            {
+                "name": "BT4-112",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-112.png"
+            }
+        ],
+        "cardType": "Option",
+        "form": "-",
+        "attribute": "-",
+        "type": "-",
+        "dp": "-",
+        "cost": "6",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "[Main] Delete 1 of your opponent's level 6 or higher Digimon.",
+        "digivolveEffect": "-",
+        "securityEffect": "[Security] Add this card to its owner's hand.",
+        "notes": ""
+    },
+    {
+        "name": "AncientGreymon",
+        "number": "BT4-113",
+        "rarity": "SEC",
+        "color": "red",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "BT4-113",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-113.png"
+            },
+            {
+                "name": "BT4-113_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-113_P1.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Vaccine",
+        "type": "Ancient Dragon/Ten Warriors",
+        "dp": "13000",
+        "cost": "12",
+        "digivolveCost1": "5 from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "[Your Turn] For each Digimon card in this Digimon's digivolution cards with [Greymon] in its name or [Hybrid] in its form, this Digimon gains . (This Digimon checks 1 additional security card).[On Deletion] You may play 1 red level 4 or below Digimon card with [Hybrid] in its form from your hand without paying its cost.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "AncientGarurumon",
+        "number": "BT4-114",
+        "rarity": "SEC",
+        "color": "blue",
+        "level": "Lv.6",
+        "printings": [
+            {
+                "name": "BT4-114",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-114.png"
+            },
+            {
+                "name": "BT4-114_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-114_P1.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Mega",
+        "attribute": "Data",
+        "type": "Ancient Animal/Ten Warriors",
+        "dp": "13000",
+        "cost": "12",
+        "digivolveCost1": "5 from Lv.5",
+        "digivolveCost2": "-",
+        "effect": "[When Attacking][Once Per Turn] You may unsuspend up to 2 of your Digimon with [Garurumon] in their names or [Hybrid] in their forms.[On Deletion] You may play 1 blue level 4 or below Digimon card with [Hybrid] in its form from your hand without paying its memory cost.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    },
+    {
+        "name": "Lucemon",
+        "number": "BT4-115",
+        "rarity": "SEC",
+        "color": "yellow",
+        "level": "Lv.3",
+        "printings": [
+            {
+                "name": "BT4-115",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-115.png"
+            },
+            {
+                "name": "BT4-115_P1",
+                "set": "BT-04",
+                "imageURL": "https://en.digimoncard.com//images/cardlist/card/BT4-115_P1.png"
+            }
+        ],
+        "cardType": "Digimon",
+        "form": "Rookie",
+        "attribute": "Vaccine",
+        "type": "Angel",
+        "dp": "10000",
+        "cost": "13",
+        "digivolveCost1": "-",
+        "digivolveCost2": "-",
+        "effect": "While you have 10 or more cards in your trash, when playing this card from your hand, reduce its play cost by 8.[On Play] . (Place the top card of your deck on top of your security stack.)[All Turns] This Digimon can only digivolve into Digimon with [Lucemon] in their names.",
+        "digivolveEffect": "-",
+        "securityEffect": "-",
+        "notes": ""
+    }
+]

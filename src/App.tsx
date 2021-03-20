@@ -4,7 +4,9 @@ import {
   IconButton,
   makeStyles,
   Toolbar,
-  Typography
+  Typography,
+  useMediaQuery,
+  useTheme
 } from "@material-ui/core";
 import {
   Menu as MenuIcon
@@ -88,6 +90,10 @@ function App() {
 
   const [drawerOpen, setDrawerOpen] = useState(false);
 
+  const theme = useTheme();
+  const isMedScreen = useMediaQuery(theme.breakpoints.up('md'));
+
+
   // Handlers
   const handleToggleDrawer = useCallback(
     () => setDrawerOpen((prev) => !prev),
@@ -115,7 +121,7 @@ function App() {
             >
               <MenuIcon />
             </IconButton>
-            <Typography variant="h6" className={classes.title}>Digimon Card Viewer</Typography>
+            <Typography variant="h6" className={classes.title}>Deckamon{isMedScreen && " - Digimon TCG Deck Builder"}</Typography>
             <Suspense fallback={<CircularProgress />}>
               <UserStatusBar />
             </Suspense>
