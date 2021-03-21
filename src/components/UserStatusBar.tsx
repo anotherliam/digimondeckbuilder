@@ -20,7 +20,13 @@ const UserStatusBar = () => {
 
     const uiConfig = {
         signInFlow: 'popup',
-        signInOptions: [useAuth.EmailAuthProvider.PROVIDER_ID, useAuth.GoogleAuthProvider.PROVIDER_ID],
+        signInOptions: [
+            {
+            provider: useAuth.EmailAuthProvider.PROVIDER_ID,
+            requireDisplayName: true,
+            fullLabel: "Continue with Email"
+        }, {provider: useAuth.GoogleAuthProvider.PROVIDER_ID, 
+            fullLabel: "Continue with Google"}],
         callbacks: {
           // Avoid redirects after sign-in.
           signInSuccessWithAuthResult: () => false
@@ -39,7 +45,7 @@ const UserStatusBar = () => {
 
     // If not logged in
     return (<>
-        <Button color="inherit" onClick={handleOpenLoginModal}>Sign In</Button>
+        <Button color="inherit" onClick={handleOpenLoginModal}>Sign In \ Sign Up</Button>
         <Dialog fullScreen={isSmallScreen} open={loginModalOpen} onClose={handleCloseLoginModal}>
             <StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={auth} />
         </Dialog>
