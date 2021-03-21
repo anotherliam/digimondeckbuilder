@@ -3,6 +3,7 @@ import {
   Button,
   IconButton,
   makeStyles,
+  Slider,
   Tooltip,
   Typography,
   useMediaQuery,
@@ -10,7 +11,7 @@ import {
 } from "@material-ui/core";
 import { Add as AddIcon, Remove as RemoveIcon } from "@material-ui/icons";
 import { Link, RouteComponentProps } from "@reach/router";
-import React from "react";
+import React, { useState } from "react";
 import { UseCardsResult } from "../Cards";
 import { useDeck } from "../deck";
 import { FilterAction, FilterState } from "../Filters";
@@ -60,6 +61,15 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     alignItems: "center",
   },
+  sliderContainer: {
+    maxWidth: 250,
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center"
+  },
+  sliderLabel: {
+    marginRight: theme.spacing(1)
+  }
 }));
 
 interface Props extends RouteComponentProps {
@@ -94,7 +104,9 @@ const CardListView: React.FC<Props> = ({
     cardSize = 80;
   }
 
-  const classes = useStyles({ width: cardSize });
+  const [zoom, setZoom] = useState(1.0);
+  const calculatedCardSize = cardSize * zoom;
+  const classes = useStyles({ width: calculatedCardSize });
   const { actualPage, numPages, cards, totalFilteredCards } = filtered;
   const startNum = actualPage * CARDS_PER_PAGE + 1;
   const endNum = startNum + cards.length - 1;
@@ -106,6 +118,10 @@ const CardListView: React.FC<Props> = ({
       <Typography variant="h5">Cards</Typography>
       <FilterPanel dispatch={filterDispatch} state={filterState} />
       <Typography>{pageString}</Typography>
+      <div className={classes.sliderContainer}>
+        <Typography variant="body2" className={classes.sliderLabel}>Zoom</Typography>
+        <Slider value={zoom} onChange={(_e, num) => setZoom(num as number)} min={0.5} max={1.5} step={0.1} valueLabelDisplay="auto" valueLabelFormat={(n) => `${n}x`} />
+      </div>
       <PageButtonsContainer>
         <Button disabled={isFirst} onClick={handlePrevPage}>
           Prev
@@ -124,7 +140,7 @@ const CardListView: React.FC<Props> = ({
                 <CardImage
                   name={`${card.number} ${card.name}`}
                   src={card.printings[0].imageURL}
-                  size={cardSize}
+                  size={calculatedCardSize}
                 />
               </Link>
               <span className={classes.cardInfo}>
